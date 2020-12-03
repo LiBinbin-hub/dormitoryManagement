@@ -69,4 +69,8 @@
         </set>
         where v_id = #{v_id}
     </update>
+
+    <select id="findVisitorById"  parameterType="Integer" resultType="Visitor" >
+       select * from d_visitor where v_id=#{v_id}
+    </select>
 </mapper>

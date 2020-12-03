@@ -41,4 +41,6 @@ public interface VisitorDao {
      * @return
      */
     int updateVisitor(Visitor visitor);
+
+    Visitor findVisitorById(Integer v_id);
 }

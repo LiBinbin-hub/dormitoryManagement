@@ -31,4 +31,11 @@ public interface VisitorService {
      * @return
      */
     int updateVisitor(Visitor visitor);
+
+    /**
+     * 根据ID查找访客
+     * @param v_id
+     * @return
+     */
+    Visitor findVisitorById(Integer v_id);
 }

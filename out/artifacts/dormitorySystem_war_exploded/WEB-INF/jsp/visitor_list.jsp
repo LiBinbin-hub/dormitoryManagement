@@ -134,7 +134,7 @@
                 <td><fmt:formatDate pattern="yyyy-MM-dd HH:mm:ss" value="${visitor.create_time}"/></td>
                 <td><fmt:formatDate pattern="yyyy-MM-dd HH:mm:ss" value="${visitor.leave_time}"/></td>
                 <td>
-                    <a title="编辑"    id= "updateEdit"    href="/findClassById?c_id=${ci.c_id}">
+                    <a title="编辑"    id= "updateEdit"    href="/findVisitorById?v_id=${visitor.v_id}">
                         <i class="layui-icon">&#xe642;</i>
                     </a>
                     <a title="删除" onclick="member_del(this,'${visitor.v_id}')" href="javascript:;">
@@ -282,12 +282,6 @@
         });
     }
 </script>
-
-
 </body>
-
-
 </html>
 
-https://github.com/LiBinbin-hub/dormitoryManagement.git
-git@github.com:LiBinbin-hub/dormitoryManagement.git

@@ -1,6 +1,7 @@
 package com.itheima.controller;
 
 import com.itheima.po.PageInfo;
+import com.itheima.po.Student;
 import com.itheima.po.Visitor;
 import com.itheima.service.VisitorService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -11,6 +12,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.ResponseBody;
 
+import javax.servlet.http.HttpSession;
 import java.util.List;
 
 /**
@@ -82,6 +84,17 @@ public class VisitorController {
 
         int v = visitorService.updateVisitor(visitor);
         return "visitor_list";
+    }
+
+    /**
+     * 根据ID查找访客
+     */
+    @RequestMapping( "/findVisitorById")
+    public String findStudentById(Integer v_id, HttpSession session) {
+
+        Visitor v= visitorService.findVisitorById(v_id);
+        session.setAttribute("v",v);
+        return "visitor_edit";
     }
 }
 

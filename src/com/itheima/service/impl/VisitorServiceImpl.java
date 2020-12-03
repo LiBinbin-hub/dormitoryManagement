@@ -64,5 +64,10 @@ public class VisitorServiceImpl implements VisitorService {
     public int updateVisitor(Visitor visitor) {
         return visitorDao.updateVisitor(visitor);
     }
+
+    @Override
+    public Visitor findVisitorById(Integer v_id) {
+        return visitorDao.findVisitorById(v_id);
+    }
 }
 
