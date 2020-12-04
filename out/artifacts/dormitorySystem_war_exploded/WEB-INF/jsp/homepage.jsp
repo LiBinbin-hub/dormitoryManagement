@@ -183,6 +183,32 @@
 
             <li>
                 <a href="javascript:;">
+                    <i class="iconfont">&#xe6b8;</i>
+                    <cite>水电费管理</cite>
+                    <i class="iconfont nav_right">&#xe697;</i>
+                </a>
+                <ul class="sub-menu">
+                    <li>
+                        <a _href="/findStudent">
+                            <%--点击在右侧出现动态的Tab--%>
+                            <i class="iconfont">&#xe6a7;</i>
+                            <cite>水费管理</cite>
+                        </a>
+                    </li >
+
+                    <li>
+                        <a _href="/findStudent">
+                            <%--点击在右侧出现动态的Tab--%>
+                            <i class="iconfont">&#xe6a7;</i>
+                            <cite>电费管理</cite>
+                        </a>
+                    </li >
+                </ul>
+            </li>
+
+
+            <li>
+                <a href="javascript:;">
                     <i class="layui-icon">&#xe613;</i>
                     <cite>访客管理</cite>
                     <i class="iconfont nav_right">&#xe697;</i>
