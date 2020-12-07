@@ -66,61 +66,34 @@
     <div class="layui-row" id="test" style="display: none;">
         <div class="layui-col-md10">
             <form class="layui-form" id="addEmployeeForm">
-                <div class="layui-form-item">
-                    <label class="layui-form-label">学号：</label>
-                    <div class="layui-input-block">
-                        <input type="text" lay-verify="required" name="s_studentid"   class="layui-input" placeholder="请输入学号">
-                    </div>
-                </div>
 
                 <div class="layui-form-item">
-                    <label class="layui-form-label">姓名：</label>
+                    <label class="layui-form-label">缴纳金额：</label>
                     <div class="layui-input-block">
-                        <input type="text" lay-verify="required" name="s_name"  class="layui-input" placeholder="请输入姓名">
-                    </div>
-                </div>
-
-                <div class="layui-form-item">
-                    <label class="layui-form-label">性别</label>
-                    <div class="layui-input-block">
-                        <input type="radio" name="s_sex" value="男" title="男" checked="">
-                        <input type="radio" name="s_sex" value="女" title="女">
-                        <%--<input type="text" name="s_sex" class="layui-input" id="s_sex" placeholder="请输入性别">--%>
-                    </div>
-                </div>
-
-                <div class="layui-form-item">
-                    <label class="layui-form-label">年龄：</label>
-                    <div class="layui-input-block">
-                        <input type="text" name="s_age" class="layui-input" i placeholder="请输入年龄">
-                    </div>
-                </div>
-
-                <div class="layui-form-item">
-                    <label class="layui-form-label">电话：</label>
-                    <div class="layui-input-block">
-                        <input type="text"  name="s_phone"  class="layui-input" placeholder="请输入电话">
-                    </div>
-                </div>
-
-                <div class="layui-form-item">
-                    <label class="layui-form-label">班级编号：</label>
-                    <div class="layui-input-block">
-                        <input type="text" name="s_classid" class="layui-input" placeholder="请输入班级编号">
-                    </div>
-                </div>
-
-                <div class="layui-form-item">
-                    <label class="layui-form-label">班级名：</label>
-                    <div class="layui-input-block">
-                        <input type="text" name="s_classname" class="layui-input" placeholder="请输入班级名">
+                        <input type="text" name="w_money" class="layui-input" i placeholder="请输入缴纳金额">
                     </div>
                 </div>
 
                 <div class="layui-form-item">
                     <label class="layui-form-label">寝室编号：</label>
                     <div class="layui-input-block">
-                        <input type="text" name="s_dormitoryid"  class="layui-input" placeholder="请输入寝室编号">
+                        <input type="text"  name="w_dormitoryid"  class="layui-input" placeholder="请输入寝室编号">
+                    </div>
+                </div>
+
+                <div class="layui-form-item">
+                    <label class="layui-form-label">宿舍楼：</label>
+                    <div class="layui-input-block">
+                        <input type="text" name="w_dormbuilding" class="layui-input" placeholder="请输入宿舍楼">
+                    </div>
+                </div>
+
+
+
+                <div class="layui-form-item">
+                    <label class="layui-form-label">缴纳月份：</label>
+                    <div class="layui-input-block">
+                        <input type="text" name="w_time"  class="layui-input" placeholder="请输入缴纳月份">
                     </div>
                 </div>
 
@@ -261,10 +234,6 @@
     <input type="hidden" id="totalPageCount" value="${pi.pageTotalCount}"/>
     <c:import url="pageBtn.jsp">
         <c:param name="totalCount" value="${pi.totalCount}"/>
-        <c:param name="currentPageNo" value="${pi.pageIndex}"/>
-        <c:param name="totalPageCount" value="${pi.pageTotalCount}"/>
-    </c:import>
-</div>
 </div>
 <script>
 
@@ -345,7 +314,7 @@
         $("#addStudnetBtn").click(function () {
             layer.open({
                 type:1,
-                title:"添加学生",
+                title:"添加缴费记录",
                 skin:"myclass",
                 area:["50%"],
                 anim:2,
@@ -357,18 +326,18 @@
                 var param=data.field;
                 // console.log(JSON.stringify(param));
                 $.ajax({
-                    url: '/addStudent',
+                    url: '/addWater',
                     type: "post",
                     data:JSON.stringify(param),
                     contentType: "application/json; charset=utf-8",
                     success:function(){
                             layer.msg('添加成功', {icon: 1, time: 3000});
-                            setTimeout(function () {window.location.href='/findStudent';},2000);
+                            setTimeout(function () {window.location.href='/findWater';},2000);
 
                     },
                     error:function(){
                         layer.msg('添加失败',{icon:0,time:3000});
-                        setTimeout(function () {window.location.href='/findStudent';},2000);
+                        setTimeout(function () {window.location.href='/findWater';},2000);
                     }
                 });
                 // return false;
