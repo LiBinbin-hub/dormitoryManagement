@@ -7,16 +7,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c950e1df-adaf-4f90-9202-51a6e8067305" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/src/com/itheima/controller/VisitorController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/itheima/controller/VisitorController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/itheima/dao/VisitorDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/itheima/dao/VisitorDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/itheima/dao/VisitorDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/itheima/dao/VisitorDao.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/itheima/service/VisitorService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/itheima/service/VisitorService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/itheima/service/impl/VisitorServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/itheima/service/impl/VisitorServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/jsp/visitor_edit.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/jsp/visitor_edit.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/jsp/visitor_list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/jsp/visitor_list.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/dormitorySystem_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/dormitorySystem_war_exploded.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/lib1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/lib1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/dormitorySystem/META-INF/dormitorySystem.kotlin_module" beforeDir="false" />
     </list>
-    <ignored path="$PROJECT_DIR$/out/" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -49,101 +45,6 @@
   <component name="DefaultGradleProjectSettings">
     <option name="testRunner" value="GRADLE" />
     <option name="delegatedBuild" value="true" />
-  </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/itheima/dao/VisitorDao.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="577">
-              <caret line="73" column="49" lean-forward="true" selection-start-line="73" selection-start-column="49" selection-end-line="73" selection-end-column="49" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/itheima/dao/StudentDao.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="54" column="4" lean-forward="true" selection-start-line="54" selection-start-column="4" selection-end-line="56" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/itheima/controller/VisitorController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="397">
-              <caret line="91" column="38" selection-start-line="91" selection-start-column="23" selection-end-line="91" selection-end-column="38" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/itheima/service/VisitorService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="613">
-              <caret line="39" column="14" selection-start-line="39" selection-start-column="14" selection-end-line="39" selection-end-column="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsp/visitor_edit.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="337">
-              <caret line="74" column="14" lean-forward="true" selection-start-line="74" selection-start-column="14" selection-end-line="74" selection-end-column="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsp/visitor_list.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="520">
-              <caret line="133" column="98" lean-forward="true" selection-start-line="133" selection-start-column="20" selection-end-line="133" selection-end-column="98" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/itheima/controller/StudentController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="625">
-              <caret line="88" column="5" lean-forward="true" selection-start-line="82" selection-start-column="3" selection-end-line="88" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/itheima/service/impl/VisitorServiceImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="541">
-              <caret line="69" column="39" selection-start-line="69" selection-start-column="39" selection-end-line="69" selection-end-column="39" />
-              <folding>
-                <element signature="e#1616#1617#0" expanded="true" />
-                <element signature="e#1669#1670#0" expanded="true" />
-                <element signature="e#1731#1732#0" expanded="true" />
-                <element signature="e#1786#1787#0" expanded="true" />
-                <element signature="e#1849#1850#0" expanded="true" />
-                <element signature="e#1873#1874#0" expanded="true" />
-                <element signature="e#1971#1972#0" expanded="true" />
-                <element signature="e#1998#1999#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/itheima/dao/VisitorDao.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="577">
-              <caret line="43" lean-forward="true" selection-start-line="43" selection-end-line="43" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -182,66 +83,6 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/web/WEB-INF/jsp/student_list.jsp" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="FORCE_HIGHLIGHTING" />
-  </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/src/com/itheima/service/impl/StudentCleanServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/com/itheima/service/impl/StudentServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/com/itheima/service/StudentService.java" />
-        <option value="$PROJECT_DIR$/web/WEB-INF/jsp/student_edit.jsp" />
-        <option value="$PROJECT_DIR$/src/com/itheima/dao/StudentDao.xml" />
-        <option value="$PROJECT_DIR$/web/WEB-INF/jsp/class_edit.jsp" />
-        <option value="$PROJECT_DIR$/src/com/itheima/service/impl/DormitoryServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/com/itheima/service/ClassService.java" />
-        <option value="$PROJECT_DIR$/src/com/itheima/service/impl/ClassServiceImpl.java" />
-        <option value="$PROJECT_DIR$/web/WEB-INF/jsp/homepage.jsp" />
-        <option value="$PROJECT_DIR$/web/WEB-INF/jsp/class_Studentlist.jsp" />
-        <option value="$PROJECT_DIR$/web/WEB-INF/jsp/dormitory_Studentlist.jsp" />
-        <option value="$PROJECT_DIR$/src/com/itheima/dao/DormitoryDao.xml" />
-        <option value="$PROJECT_DIR$/src/com/itheima/controller/DormitoryController.java" />
-        <option value="$PROJECT_DIR$/src/com/itheima/controller/DormRepairController.java" />
-        <option value="$PROJECT_DIR$/src/com/itheima/controller/DormCleanController.java" />
-        <option value="$PROJECT_DIR$/src/com/itheima/controller/StudentController.java" />
-        <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/dormitory.sql" />
-        <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/src/db.properties" />
-        <option value="$PROJECT_DIR$/src/com/itheima/util/MD5Util.java" />
-        <option value="$PROJECT_DIR$/web/WEB-INF/jsp/login.jsp" />
-        <option value="$PROJECT_DIR$/src/com/itheima/po/Admin.java" />
-        <option value="$PROJECT_DIR$/src/com/itheima/po/Class.java" />
-        <option value="$PROJECT_DIR$/src/com/itheima/po/DormClean.java" />
-        <option value="$PROJECT_DIR$/src/com/itheima/po/Dormitory.java" />
-        <option value="$PROJECT_DIR$/src/com/itheima/po/DormRepair.java" />
-        <option value="$PROJECT_DIR$/src/com/itheima/po/PageInfo.java" />
-        <option value="$PROJECT_DIR$/src/com/itheima/po/StudentClean.java" />
-        <option value="$PROJECT_DIR$/web/WEB-INF/jsp/admin_list.jsp" />
-        <option value="$PROJECT_DIR$/web/WEB-INF/jsp/dormclean_list.jsp" />
-        <option value="$PROJECT_DIR$/web/WEB-INF/jsp/dormitory_list.jsp" />
-        <option value="$PROJECT_DIR$/web/WEB-INF/jsp/dormrepair_list.jsp" />
-        <option value="$PROJECT_DIR$/web/WEB-INF/jsp/studentclean_list.jsp" />
-        <option value="$PROJECT_DIR$/src/com/itheima/controller/AdminController.java" />
-        <option value="$PROJECT_DIR$/src/com/itheima/dao/StudentDao.java" />
-        <option value="$PROJECT_DIR$/src/com/itheima/po/Student.java" />
-        <option value="$PROJECT_DIR$/src/com/itheima/controller/ClassController.java" />
-        <option value="$PROJECT_DIR$/src/com/itheima/po/Visitor.java" />
-        <option value="$PROJECT_DIR$/src/com/itheima/dao/ClassDao.java" />
-        <option value="$PROJECT_DIR$/src/com/itheima/dao/ClassDao.xml" />
-        <option value="$PROJECT_DIR$/web/WEB-INF/jsp/class_list.jsp" />
-        <option value="$PROJECT_DIR$/src/com/itheima/service/VisitorService.java" />
-        <option value="$PROJECT_DIR$/src/com/itheima/service/impl/VisitorServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/com/itheima/dao/VisitorDao.java" />
-        <option value="$PROJECT_DIR$/src/com/itheima/dao/VisitorDao.xml" />
-        <option value="$PROJECT_DIR$/src/com/itheima/controller/VisitorController.java" />
-        <option value="$PROJECT_DIR$/web/WEB-INF/jsp/student_list.jsp" />
-        <option value="$PROJECT_DIR$/web/WEB-INF/jsp/visitor_list.jsp" />
-        <option value="$PROJECT_DIR$/web/WEB-INF/jsp/visitor_edit.jsp" />
-      </list>
-    </option>
-  </component>
   <component name="LogFilters">
     <option name="FILTER_ERRORS" value="false" />
     <option name="FILTER_WARNINGS" value="false" />
@@ -249,99 +90,11 @@
     <option name="FILTER_DEBUG" value="true" />
     <option name="CUSTOM_FILTER" />
   </component>
-  <component name="MavenProjectNavigator">
-    <treeState>
-      <expand />
-      <select />
-    </treeState>
-  </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="183" />
-    <option name="y" value="76" />
-    <option name="width" value="1179" />
-    <option name="height" value="828" />
-  </component>
+  <component name="ProjectId" id="1l9RUAmi59zLyyQy0apN3IfdQIA" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="PackagesPane" />
-      <pane id="CatdeaLogs" />
-      <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="DormitoryManager" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DormitoryManager" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DormitoryManager" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DormitoryManager" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DormitoryManager" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DormitoryManager" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DormitoryManager" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DormitoryManager" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="itheima" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DormitoryManager" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DormitoryManager" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="itheima" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DormitoryManager" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DormitoryManager" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="itheima" type="462c0819:PsiDirectoryNode" />
-              <item name="dao" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DormitoryManager" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DormitoryManager" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="itheima" type="462c0819:PsiDirectoryNode" />
-              <item name="po" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DormitoryManager" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DormitoryManager" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DormitoryManager" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DormitoryManager" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DormitoryManager" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DormitoryManager" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-              <item name="jsp" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-    </panes>
+  <component name="ProjectViewState">
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="DatabaseDriversLRU" value="mysql" />
@@ -354,7 +107,13 @@
     <property name="database.console.LAST_STATE" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/web/WEB-INF/jsp" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
-    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="project.structure.last.edited" value="Problems" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
@@ -379,18 +138,6 @@
       <recent name="E:\IDEA-File\dormitorySystem" />
       <recent name="E:\IDEA-File\dormitorySystem\web\js" />
     </key>
-  </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
   </component>
   <component name="RunManager">
     <configuration default="true" type="Applet">
@@ -421,7 +168,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="dormitorySystem" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.57" ALTERNATIVE_JRE_ENABLED="false">
+    <configuration name="dormitorySystem" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.31" ALTERNATIVE_JRE_ENABLED="false">
       <option name="BROWSER_ID" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
       <option name="UPDATE_ON_FRAME_DEACTIVATION" value="true" />
       <option name="UPDATE_CLASSES_ON_FRAME_DEACTIVATION" value="true" />
@@ -506,6 +253,29 @@
       </method>
     </configuration>
   </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <option name="contentProportion" value="0.15778689" />
+          <treeState>
+            <expand>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Tomcat Server" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Tomcat Server" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="运行" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+            </expand>
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
   <component name="SshConsoleOptionsProvider">
     <option name="myEncoding" value="UTF-8" />
   </component>
@@ -579,526 +349,120 @@
       <workItem from="1560590403321" duration="3685000" />
       <workItem from="1562410239127" duration="6992000" />
       <workItem from="1606962412026" duration="21295000" />
+      <workItem from="1607007344996" duration="236000" />
+      <workItem from="1607152555359" duration="1113000" />
     </task>
     <servers />
-  </component>
-  <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="613473000" />
-  </component>
-  <component name="ToolWindowManager">
-    <frame x="-9" y="-9" width="1618" height="1170" extended-state="6" />
-    <editor active="true" />
-    <layout>
-      <window_info id="Alibaba Cloud Explorer" show_stripe_button="false" weight="0.32963446" />
-      <window_info id="JavaEE:App" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" weight="0.29046997" />
-      <window_info id="Structure" order="1" show_stripe_button="false" weight="0.24934725" />
-      <window_info id="Designer" order="2" />
-      <window_info id="Image Layers" order="3" />
-      <window_info id="UI Designer" order="4" />
-      <window_info id="Favorites" order="5" side_tool="true" />
-      <window_info id="Capture Tool" order="6" />
-      <window_info id="Web" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Alibaba Cloud View" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.3288364" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.48411497" weight="0.44102564" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.3992298" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Application Servers" order="7" weight="0.121416524" />
-      <window_info anchor="bottom" id="Spring" order="8" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.32686415" />
-      <window_info anchor="bottom" id="Inspection Results" order="10" weight="0.09331919" />
-      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.515885" side_tool="true" weight="0.25025642" />
-      <window_info anchor="bottom" id="Messages" order="12" weight="0.28923076" />
-      <window_info anchor="bottom" id="Java Enterprise" order="13" />
-      <window_info anchor="bottom" id="Version Control" order="14" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Docker" order="15" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" order="16" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Console" order="17" weight="0.3295082" />
-      <window_info anchor="bottom" id="Statistic" order="18" weight="0.25076923" />
-      <window_info anchor="right" id="Json Parser" />
-      <window_info anchor="right" id="Alibaba ROS Templates" />
-      <window_info anchor="right" id="Word Book" side_tool="true" />
-      <window_info anchor="right" id="Alibaba Function Compute" />
-      <window_info anchor="right" id="Alibaba Log Console" />
-      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="right" id="Maven Projects" order="5" />
-      <window_info anchor="right" id="Database" order="6" weight="0.16490166" />
-      <window_info anchor="right" id="Palette&#9;" order="7" />
-      <window_info anchor="right" id="Theme Preview" order="8" />
-      <window_info anchor="right" id="Maven" order="9" weight="0.32980332" />
-    </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/db.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="3" column="20" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/itheima/util/MD5Util.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2124">
-          <caret line="59" selection-start-line="59" selection-end-line="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsp/admin_edit.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-116" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsp/class_edit.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="746">
-          <caret line="66" selection-start-line="66" selection-end-line="66" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsp/class_Studentlist.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="58" column="12" lean-forward="true" selection-start-line="58" selection-start-column="12" selection-end-line="58" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsp/dormclean_edit.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-116" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsp/dormitory_Studentlist.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="746">
-          <caret line="117" selection-start-line="117" selection-end-line="117" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsp/dormrepair_edit.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-116" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsp/dormrepair_list.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="261">
-          <caret line="54" column="77" selection-start-line="54" selection-start-column="77" selection-end-line="54" selection-end-column="77" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsp/homepage.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="100" column="22" lean-forward="true" selection-start-line="100" selection-start-column="22" selection-end-line="100" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsp/pageBtn.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1412" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsp/student_edit.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="532">
-          <caret line="18" column="20" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsp/studentclean_list.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="261">
-          <caret line="55" column="77" selection-start-line="55" selection-start-column="77" selection-end-line="55" selection-end-column="77" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/out/artifacts/dormitorySystem_war_exploded/WEB-INF/lib/spring-context-4.3.6.RELEASE.jar!/org/springframework/ui/Model.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.ideaLibSources/spring-context-4.3.6.RELEASE-sources.jar!/org/springframework/ui/Model.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1188">
-          <caret line="48" lean-forward="true" selection-start-line="48" selection-end-line="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsp/login.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1049">
-          <caret line="34" column="40" lean-forward="true" selection-start-line="34" selection-start-column="40" selection-end-line="34" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/itheima/po/Admin.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="646">
-          <caret line="20" selection-start-line="20" selection-end-line="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/itheima/po/Class.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="12" column="36" lean-forward="true" selection-start-line="12" selection-start-column="36" selection-end-line="12" selection-end-column="36" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/itheima/po/DormClean.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="610">
-          <caret line="23" column="29" selection-start-line="23" selection-start-column="29" selection-end-line="23" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/itheima/po/Dormitory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="17" column="35" selection-start-line="17" selection-start-column="35" selection-end-line="17" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/itheima/po/DormRepair.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="610">
-          <caret line="25" selection-start-line="25" selection-end-line="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/itheima/po/PageInfo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="664">
-          <caret line="32" column="29" lean-forward="true" selection-start-line="32" selection-start-column="29" selection-end-line="32" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/itheima/po/Student.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="12" column="27" lean-forward="true" selection-start-line="12" selection-start-column="27" selection-end-line="12" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/itheima/po/StudentClean.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="610">
-          <caret line="25" column="29" selection-start-line="25" selection-start-column="29" selection-end-line="25" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/itheima/service/impl/ClassServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="229">
-          <caret line="77" column="5" lean-forward="true" selection-start-line="77" selection-start-column="5" selection-end-line="77" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/itheima/service/ClassService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="648">
-          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/itheima/dao/DormCleanDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="412">
-          <caret line="16" column="7" lean-forward="true" selection-start-line="16" selection-start-column="7" selection-end-line="16" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/itheima/controller/ClassController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="520">
-          <caret line="96" column="35" lean-forward="true" selection-start-line="96" selection-start-column="35" selection-end-line="96" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/itheima/controller/AdminController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="612">
-          <caret line="39" column="31" selection-start-line="39" selection-start-column="31" selection-end-line="39" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/itheima/dao/ClassDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="19" column="13" lean-forward="true" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/itheima/dao/ClassDao.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="412">
-          <caret line="96" column="52" lean-forward="true" selection-start-line="96" selection-start-column="52" selection-end-line="96" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsp/studentclean_edit.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1964">
-          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/itheima/dao/StudentDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="517">
-          <caret line="23" column="33" lean-forward="true" selection-start-line="23" selection-start-column="33" selection-end-line="23" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/itheima/po/Visitor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="610">
-          <caret line="25" column="27" selection-start-line="25" selection-start-column="17" selection-end-line="25" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsp/admin_list.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="261">
-          <caret line="96" column="13" selection-start-line="96" selection-start-column="13" selection-end-line="96" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsp/class_list.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="332">
-          <caret line="118" column="37" lean-forward="true" selection-start-line="118" selection-start-column="37" selection-end-line="118" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsp/dormclean_list.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="333">
-          <caret line="128" column="45" lean-forward="true" selection-start-line="128" selection-start-column="45" selection-end-line="128" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsp/dormitory_list.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2403">
-          <caret line="58" column="12" lean-forward="true" selection-start-line="58" selection-start-column="12" selection-end-line="58" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dormitorySystem.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="468">
-          <caret line="13" column="12" lean-forward="true" selection-start-line="13" selection-start-column="12" selection-end-line="13" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="227">
-            <caret line="11" column="19" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsp/dormitory_edit.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2664">
-          <caret line="80" column="21" selection-start-line="80" selection-start-column="21" selection-end-line="80" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/itheima/controller/StudentController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="625">
-          <caret line="88" column="5" lean-forward="true" selection-start-line="82" selection-start-column="3" selection-end-line="88" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/itheima/service/VisitorService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="613">
-          <caret line="39" column="14" selection-start-line="39" selection-start-column="14" selection-end-line="39" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/itheima/service/impl/VisitorServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="541">
-          <caret line="69" column="39" selection-start-line="69" selection-start-column="39" selection-end-line="69" selection-end-column="39" />
-          <folding>
-            <element signature="e#1616#1617#0" expanded="true" />
-            <element signature="e#1669#1670#0" expanded="true" />
-            <element signature="e#1731#1732#0" expanded="true" />
-            <element signature="e#1786#1787#0" expanded="true" />
-            <element signature="e#1849#1850#0" expanded="true" />
-            <element signature="e#1873#1874#0" expanded="true" />
-            <element signature="e#1971#1972#0" expanded="true" />
-            <element signature="e#1998#1999#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/itheima/dao/VisitorDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="577">
-          <caret line="43" lean-forward="true" selection-start-line="43" selection-end-line="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/itheima/dao/StudentDao.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="54" column="4" lean-forward="true" selection-start-line="54" selection-start-column="4" selection-end-line="56" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/itheima/dao/VisitorDao.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="577">
-          <caret line="73" column="49" lean-forward="true" selection-start-line="73" selection-start-column="49" selection-end-line="73" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/itheima/controller/VisitorController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="397">
-          <caret line="91" column="38" selection-start-line="91" selection-start-column="23" selection-end-line="91" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsp/student_list.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1368">
-          <caret line="57" column="10" lean-forward="true" selection-start-line="57" selection-start-column="10" selection-end-line="57" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsp/visitor_list.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="520">
-          <caret line="133" column="98" lean-forward="true" selection-start-line="133" selection-start-column="20" selection-end-line="133" selection-end-column="98" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsp/visitor_edit.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="337">
-          <caret line="74" column="14" lean-forward="true" selection-start-line="74" selection-start-column="14" selection-end-line="74" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
+  <component name="WindowStateProjectService">
+    <state x="223" y="72" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1607007459168">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="223" y="72" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.834@0.0.1536.834" timestamp="1607007459168" />
+    <state width="1232" height="206" key="GridCell.Tab.0.bottom" timestamp="1607179091914">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1232" height="206" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1607179091914" />
+    <state width="1232" height="206" key="GridCell.Tab.0.center" timestamp="1607179091914">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1232" height="206" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1607179091914" />
+    <state width="1232" height="206" key="GridCell.Tab.0.left" timestamp="1607179091914">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1232" height="206" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1607179091914" />
+    <state width="1232" height="206" key="GridCell.Tab.0.right" timestamp="1607179091914">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1232" height="206" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1607179091914" />
+    <state width="1232" height="206" key="GridCell.Tab.1.bottom" timestamp="1607179091915">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1232" height="206" key="GridCell.Tab.1.bottom/0.0.1536.834@0.0.1536.834" timestamp="1607179091915" />
+    <state width="1232" height="206" key="GridCell.Tab.1.center" timestamp="1607179091915">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1232" height="206" key="GridCell.Tab.1.center/0.0.1536.834@0.0.1536.834" timestamp="1607179091915" />
+    <state width="1232" height="206" key="GridCell.Tab.1.left" timestamp="1607179091915">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1232" height="206" key="GridCell.Tab.1.left/0.0.1536.834@0.0.1536.834" timestamp="1607179091915" />
+    <state width="1232" height="206" key="GridCell.Tab.1.right" timestamp="1607179091915">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1232" height="206" key="GridCell.Tab.1.right/0.0.1536.834@0.0.1536.834" timestamp="1607179091915" />
+    <state width="1232" height="206" key="GridCell.Tab.2.bottom" timestamp="1607179091915">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1232" height="206" key="GridCell.Tab.2.bottom/0.0.1536.834@0.0.1536.834" timestamp="1607179091915" />
+    <state width="1232" height="206" key="GridCell.Tab.2.center" timestamp="1607179091915">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1232" height="206" key="GridCell.Tab.2.center/0.0.1536.834@0.0.1536.834" timestamp="1607179091915" />
+    <state width="1232" height="206" key="GridCell.Tab.2.left" timestamp="1607179091915">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1232" height="206" key="GridCell.Tab.2.left/0.0.1536.834@0.0.1536.834" timestamp="1607179091915" />
+    <state width="1232" height="206" key="GridCell.Tab.2.right" timestamp="1607179091915">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1232" height="206" key="GridCell.Tab.2.right/0.0.1536.834@0.0.1536.834" timestamp="1607179091915" />
+    <state x="249" y="0" key="SettingsEditor" timestamp="1607007492100">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="249" y="0" key="SettingsEditor/0.0.1536.834@0.0.1536.834" timestamp="1607007492100" />
   </component>
-  <component name="masterDetails">
-    <states>
-      <state key="ArtifactsStructureConfigurable.UI">
-        <settings>
-          <artifact-editor />
-          <last-edited>dormitorySystem:war exploded</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-                <option value="0.5" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="FacetStructureConfigurable.UI">
-        <settings>
-          <last-edited>Spring (dormitorySystem)|Spring</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="GlobalLibrariesConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="JdkListConfigurable.UI">
-        <settings>
-          <last-edited>1.8</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ModuleStructureConfigurable.UI">
-        <settings>
-          <last-edited>dormitorySystem</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectJDKs.UI">
-        <settings>
-          <last-edited>9.0</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectLibrariesConfigurable.UI">
-        <settings>
-          <last-edited>lib</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-    </states>
+  <component name="simpleUML.UMLToolWindowPlugin">
+    <General>
+      <option name="birdViewUpdateDelay" value="2000" />
+      <option name="defaultFileLocation" value="file://$PROJECT_DIR$/.." />
+    </General>
+    <Classdiagram>
+      <option name="diagramTitleFont" value="SansSerif,1,12" />
+      <option name="diagramFont" value="SansSerif,0,10" />
+      <option name="defaultFieldsExpanded" value="false" />
+      <option name="defaultContructorsExpanded" value="false" />
+      <option name="defaultMethodsExpanded" value="false" />
+      <option name="showParameters" value="true" />
+      <option name="showTooltip" value="true" />
+      <option name="showReturnValues" value="true" />
+      <option name="longModifier" value="true" />
+      <option name="implementsBehaviour" value="1" />
+      <option name="extendsBehaviour" value="1" />
+      <option name="compartmentBehaviour" value="1" />
+      <option name="interfaceBackgroundColor" value="-6494306" />
+      <option name="abstractClassBackgroundColor" value="-1580132" />
+      <option name="classBackgroundColor" value="-6508057" />
+      <option name="diagramBackgroundColor" value="-1" />
+      <option name="useAntialiasedConnectors" value="true" />
+      <option name="quickSourceLinkColor" value="-16776961" />
+      <option name="quickDiagramLinkColor" value="-8454144" />
+      <option name="drawDecorations" value="false" />
+      <option name="hideFieldList" value="" />
+      <option name="showFieldList" value="" />
+      <option name="hideConstructorList" value="" />
+      <option name="showConstructorList" value="" />
+      <option name="hideMethodList" value="" />
+      <option name="showMethodList" value="" />
+      <option name="minimumFigureSize" value="0,0" />
+    </Classdiagram>
+    <Dependencydiagram>
+      <option name="diagramTitleFont" value="SansSerif,1,12" />
+      <option name="diagramFont" value="SansSerif,0,10" />
+      <option name="diagramBackgroundColor" value="-1" />
+      <option name="useAntialiasedConnectors" value="true" />
+      <option name="packageNameCompressionLevel" value="0" />
+    </Dependencydiagram>
+    <Packagediagram>
+      <option name="diagramTitleFont" value="SansSerif,0,12" />
+      <option name="diagramFont" value="SansSerif,0,10" />
+      <option name="packageBackgroundColor" value="-4144960" />
+      <option name="diagramBackgroundColor" value="-1" />
+      <option name="useAntialiasedConnectors" value="true" />
+      <option name="packageNameCompressionLevel" value="2" />
+    </Packagediagram>
   </component>
 </project>
