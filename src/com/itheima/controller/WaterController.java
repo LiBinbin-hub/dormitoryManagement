@@ -27,6 +27,8 @@ public class WaterController {
     @RequestMapping(value = "/addWater" ,method = RequestMethod.POST)
     @ResponseBody
     public String addWater(@RequestBody Water water) {
+
+        System.out.println("water: " + water);
         int s = waterService.addWater(water);
         return "student_list";
     }
@@ -36,14 +38,14 @@ public class WaterController {
      * pageIndex 当前页码
      * pageSize  显示条数
      */
-    @RequestMapping(value = "/findWater")
-    public String findStudent(String s_name, Integer s_studentid,Integer s_classid, String s_classname,
-                              Integer pageIndex, Integer pageSize, Model model) {
+    @RequestMapping(value = "/getWaterList")
+    public String getWaterList(String w_dormitoryid, String w_dormbuilding , String w_time, Integer pageIndex,
+                              Integer pageSize, Model model) {
 
-//        PageInfo<Student> pi = studentService.findPageInfo(s_name,s_studentid,s_classid,
-//                s_classname,pageIndex,pageSize);
-//        model.addAttribute("pi",pi);
-//        model.addAttribute("s_name",s_name);
+        PageInfo<Water> pi = waterService.findPageInfo(w_dormitoryid, w_dormbuilding, w_time,
+                pageIndex,pageSize);
+        model.addAttribute("pi",pi);
+        model.addAttribute("v_name","*****");
         return "water_list";
     }
 }
