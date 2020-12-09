@@ -42,7 +42,7 @@
         <a href="/findVisitor">访客信息</a>
       </span>
     <a class="layui-btn layui-btn-small" style="line-height:1.6em;margin-top:3px;float:right" href="/findVisitor" title="刷新">
-        <i class="layui-icon" style="line-height:30px">ဂ</i></a>
+        <i class="layui-icon" style="line-height:30px">刷新</i></a>
 </div>
 <div class="x-body">
     <div class="layui-row">
@@ -252,7 +252,6 @@
                     success:function(){
                         layer.msg('添加成功', {icon: 1, time: 3000});
                         setTimeout(function () {window.location.href='/findVisitor';},2000);
-
                     },
                     error:function(){
                         layer.msg('添加失败',{icon:0,time:3000});

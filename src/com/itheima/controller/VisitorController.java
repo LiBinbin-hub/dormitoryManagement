@@ -1,5 +1,6 @@
 package com.itheima.controller;
 
+import com.itheima.po.DormClean;
 import com.itheima.po.PageInfo;
 import com.itheima.po.Student;
 import com.itheima.po.Visitor;
@@ -78,12 +79,10 @@ public class VisitorController {
     /**
      * 修改访客信息
      */
-    @RequestMapping(value = "/updateVisitor" ,method = RequestMethod.POST)
-    @ResponseBody
-    public String updateVisitor(@RequestBody Visitor visitor) {
-
+    @RequestMapping( value = "/updateVisitor", method = RequestMethod.POST)
+    public String updateVisitor( Visitor visitor) {
         int v = visitorService.updateVisitor(visitor);
-        return "visitor_list";
+        return "redirect:/findVisitor";
     }
 
     /**

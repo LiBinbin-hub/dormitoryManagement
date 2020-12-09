@@ -1,8 +1,8 @@
 <%--
   Created by IntelliJ IDEA.
-  User: hkw
-  Date: 2018/11/14
-  Time: 16:35
+  User: 周训凯
+  Date: 2019/4/24
+  Time: 23:00
   To change this template use File | Settings | File Templates.
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
@@ -17,75 +17,76 @@
     <script type="text/javascript" src="./js/jquery-1.3.2.min.js"></script>
     <script src="lib/layui/layui.js"></script>
     <script type="text/javascript" src="./js/xadmin.js"></script>
+
 </head>
 
 <body>
 
 <div class="x-body">
-    <form class="layui-form" action="/updateVisitor" method="post"  id="f_auto" accept-charset="UTF-8">
+    <form class="layui-form"  id="f_auto" action="/updateVisitor" method="post" >
         <input type="hidden" value="${sessionScope.v.v_id}" name="v_id" id="v_id"/>
         <div class="layui-form-item">
-            <label for="s_studentid" class="layui-form-label">
-                <span class="f_sp">访客姓名</span>
+            <label for="v_name" class="layui-form-label">
+                <span class="f_sp">访问人员姓名</span>
             </label>
             <div class="layui-input-inline">
-                <input type="text" id="s_studentid" name="s_studentid"
+                <input type="text" id="v_name" name="v_name"
                        autocomplete="off" value="${sessionScope.v.v_name}" class="layui-input">
             </div>
         </div>
 
         <div class="layui-form-item">
-            <label for="s_phone" class="layui-form-label">
-                <span class="f_sp">访客电话</span>
+            <label for="v_phone" class="layui-form-label">
+                <span class="f_sp">访问人员电话</span>
             </label>
             <div class="layui-input-inline">
-                <input type="text" id="s_phone" name="s_phone"
+                <input type="text" id="v_phone" name="v_phone"
                        autocomplete="off" value="${sessionScope.v.v_phone}" class="layui-input">
             </div>
         </div>
 
         <div class="layui-form-item">
-            <label for="s_name" class="layui-form-label">
-                <span class="f_sp">访问宿舍编号</span>
+            <label for="v_dormbuilding" class="layui-form-label">
+                <span class="f_sp">访问宿舍楼</span>
             </label>
             <div class="layui-input-inline">
-                <input type="text" id="s_name" name="s_name"
-                       autocomplete="off" value="${sessionScope.v.v_dormitoryid}" class="layui-input">
-            </div>
-        </div>
-
-        <div class="layui-form-item">
-            <label for="s_classid" class="layui-form-label">
-                <span class="">*</span>访问宿舍楼
-            </label>
-            <div class="layui-input-inline">
-                <input type="text" id="s_classid" name="s_classid"
+                <input type="text" id="v_dormbuilding" name="v_dormbuilding"
                        autocomplete="off" value="${sessionScope.v.v_dormbuilding}" class="layui-input">
             </div>
         </div>
 
         <div class="layui-form-item">
-            <label for="s_classid" class="layui-form-label">
-                <span class="">*</span>访问时间
+            <label for="v_dormitoryid" class="layui-form-label">
+                <span class="f_sp">访问宿舍编号</span>
             </label>
             <div class="layui-input-inline">
-                <input type="text" id="s_classname" name="s_classname"
-                       autocomplete="off" value="<fmt:formatDate pattern="yyyy-MM-dd HH:mm:ss" value="${sessionScope.v.create_time}"/>" class="layui-input">
+                <input type="text" id="v_dormitoryid" name="v_dormitoryid"
+                       autocomplete="off" value="${sessionScope.v.v_dormitoryid}" class="layui-input">
             </div>
         </div>
 
         <div class="layui-form-item">
-            <label for="s_dormitoryid" class="layui-form-label">
-                <span class="">*</span>离开时间
+            <label for="create_time" class="layui-form-label">
+                <span class="f_sp">访问时间</span>
             </label>
             <div class="layui-input-inline">
-                <input type="text" id="s_dormitoryid" name="s_dormitoryid"
+                <input type="text" id="create_time" name="create_time"
+                       autocomplete="off" value="${sessionScope.v.create_time}" class="layui-input">
+            </div>
+        </div>
+
+        <div class="layui-form-item">
+            <label for="leave_time" class="layui-form-label">
+                <span class="f_sp">离开时间</span>
+            </label>
+            <div class="layui-input-inline">
+                <input type="text" id="leave_time" name="leave_time"
                        autocomplete="off" value="${sessionScope.v.leave_time}" class="layui-input">
             </div>
         </div>
 
         <div class="layui-form-item" id="btn_xg">
-            <button  class="layui-btn"  id="btn_on" lay-filter="updateForm" lay-submit="">
+            <button  class="layui-btn" id="btn_on"  lay-submit="" lay-filter="updateClass">
                 修改
             </button>
         </div>
@@ -93,31 +94,9 @@
 </div>
 
 <script>
-    // layui.use(['form','layer','laydate'], function(){
-    //     var form = layui.form,
-    //         $ = layui.jquery,
-    //         laydate = layui.laydate;
-    //     form.on('submit(updateForm)', function(obj,s_id) {
-    //
-    //         $.ajax({
-    //             url: '/updateStudent',
-    //             type: "post",
-    //             data:{"s_id":s_id},
-    //             success:function(data){
-    //                 layer.msg('修改成功', {icon: 1, time: 3000});
-    //                 setTimeout(function () {window.location.href='/findStudent';},2000);
-    //
-    //             },
-    //             error:function(){
-    //                 console.log($("#s_id").val());
-    //                 layer.msg('修改失败',{icon:0,time:3000});
-    //                 setTimeout(function () {window.location.href='/findStudent';},2000);
-    //             }
-    //         });
-    //     })
-    //
-    // });
 
+    $('#create_time').datetimepicker();
 </script>
 </body>
 </html>
+
