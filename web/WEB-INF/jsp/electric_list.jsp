@@ -31,17 +31,17 @@
 <div class="x-nav">
       <span class="layui-breadcrumb">
         <a href="">首页</a>
-        <a href="/findVisitor">水费信息</a>
+        <a href="/getElectricList">电费信息</a>
       </span>
-    <a class="layui-btn layui-btn-small" style="line-height:1.6em;margin-top:3px;float:right" href="/getWaterList" title="刷新">
+    <a class="layui-btn layui-btn-small" style="line-height:1.6em;margin-top:3px;float:right" href="/getElectricList" title="刷新">
         <i class="layui-icon" style="line-height:30px">刷新</i></a>
 </div>
 <div class="x-body">
     <div class="layui-row">
-        <form class="layui-form layui-col-md12 x-so" action="/getWaterList" >
-            <input class="layui-input" placeholder="请输入宿舍号" name="w_dormitoryid" id="w_dormitoryid">
-            <input class="layui-input" placeholder="请输入宿舍楼" name="w_dormbuilding" id="w_dormbuilding">
-            <input class="layui-input" placeholder="请输入缴纳月份" name="w_time" id="w_time">
+        <form class="layui-form layui-col-md12 x-so" action="/getElectricList" >
+            <input class="layui-input" placeholder="请输入宿舍号" name="e_dormitoryid" id="e_dormitoryid">
+            <input class="layui-input" placeholder="请输入宿舍楼" name="e_dormbuilding" id="e_dormbuilding">
+            <input class="layui-input" placeholder="请输入缴纳月份" name="e_time" id="e_time">
 
             <input class="layui-input" type="hidden" name="pageIndex" value="1">
             <input class="layui-input" type="hidden" name="pageSize" value="5">
@@ -61,28 +61,28 @@
                 <div class="layui-form-item">
                     <label class="layui-form-label">缴纳金额：</label>
                     <div class="layui-input-block">
-                        <input type="text" lay-verify="required" name="w_money"  class="layui-input" placeholder="请输入缴纳金额">
+                        <input type="text" lay-verify="required" name="e_money"  class="layui-input" placeholder="请输入缴纳金额">
                     </div>
                 </div>
 
                 <div class="layui-form-item">
                     <label class="layui-form-label">宿舍编号：</label>
                     <div class="layui-input-block">
-                        <input type="text"  name="w_dormitoryid"  class="layui-input" placeholder="请输入宿舍编号">
+                        <input type="text"  name="e_dormitoryid"  class="layui-input" placeholder="请输入宿舍编号">
                     </div>
                 </div>
 
                 <div class="layui-form-item">
                     <label class="layui-form-label">宿舍楼：</label>
                     <div class="layui-input-block">
-                        <input type="text" name="w_dormbuilding"  class="layui-input" placeholder="请输入宿舍楼">
+                        <input type="text" name="e_dormbuilding"  class="layui-input" placeholder="请输入宿舍楼">
                     </div>
                 </div>
 
                 <div class="layui-form-item">
                     <label class="layui-form-label">缴纳时间：</label>
                     <div class="layui-input-block">
-                        <input type="text" name="w_time" class="layui-input" placeholder="请输入缴纳月份">
+                        <input type="text" name="e_time" class="layui-input" placeholder="请输入缴纳月份">
                     </div>
                 </div>
 
@@ -109,19 +109,19 @@
             <th>操作</th>
         </thead>
         <tbody>
-        <c:forEach items="${pi.list}" var="water">
+        <c:forEach items="${pi.list}" var="electric">
             <tr>
-                <td>${water.w_id}</td>
-                <td>${water.w_money}</td>
-                <td>${water.w_dormitoryid}</td>
-                <td>${water.w_dormbuilding}</td>
-                <td>${water.w_time}</td>
-                <td><fmt:formatDate pattern="yyyy-MM-dd HH:mm:ss" value="${water.w_createtime}"/></td>
+                <td>${electric.e_id}</td>
+                <td>${electric.e_money}</td>
+                <td>${electric.e_dormitoryid}</td>
+                <td>${electric.e_dormbuilding}</td>
+                <td>${electric.e_time}</td>
+                <td><fmt:formatDate pattern="yyyy-MM-dd HH:mm:ss" value="${electric.e_createtime}"/></td>
                 <td>
-                    <a title="编辑"    id= "updateEdit"    href="/findWaterById?w_id=${water.w_id}">
+                    <a title="编辑"    id= "updateEdit"    href="/findElectricById?e_id=${electric.e_id}">
                         <i class="layui-icon">&#xe642;</i>
                     </a>
-                    <a title="删除" onclick="member_del(this,'${water.w_id}')" href="javascript:;">
+                    <a title="删除" onclick="member_del(this,'${electric.e_id}')" href="javascript:;">
                         <i class="layui-icon">&#xe640;</i>
                     </a>
                 </td>
@@ -162,7 +162,7 @@
         $("#addStudnetBtn").click(function () {
             layer.open({
                 type:1,
-                title:"添加水费缴费记录",
+                title:"添加电费缴费记录",
                 skin:"myclass",
                 area:["50%"],
                 anim:2,
@@ -174,17 +174,17 @@
                 var param=data.field;
                 // console.log(JSON.stringify(param));
                 $.ajax({
-                    url: '/addWater',
+                    url: '/addElectric',
                     type: "post",
                     data:JSON.stringify(param),
                     contentType: "application/json; charset=utf-8",
                     success:function(){
                         layer.msg('添加成功', {icon: 1, time: 3000});
-                        setTimeout(function () {window.location.href='/getWaterList';},2000);
+                        setTimeout(function () {window.location.href='/getElectricList';},2000);
                     },
                     error:function(){
                         layer.msg('添加失败',{icon:0,time:3000});
-                        setTimeout(function () {window.location.href='/getWaterList';},2000);
+                        setTimeout(function () {window.location.href='/getElectricList';},2000);
                     }
                 });
                 // return false;
@@ -196,17 +196,17 @@
 
     });
 
-    function member_del(obj,w_id){
+    function member_del(obj,e_id){
         layer.confirm('确认要删除吗？',function(index){
             //发异步删除数据
-            $.get("/delWater",{"w_id":w_id},function (data) {
+            $.get("/delElectric",{"e_id":e_id},function (data) {
                 if(data =true){
                     layer.msg('删除成功!',{icon:1,time:2000});
-                    setTimeout(function () {window.location.href='/getWaterList';},2000);
+                    setTimeout(function () {window.location.href='/getElectricList';},2000);
 
                 }else {
                     layer.msg('删除失败!',{icon:1,time:3000});
-                    setTimeout(function () {window.location.href='/getWaterList';},2000);
+                    setTimeout(function () {window.location.href='/getElectricList';},2000);
                 }
             });
         });

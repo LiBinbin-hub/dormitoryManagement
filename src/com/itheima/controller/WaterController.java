@@ -12,6 +12,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.ResponseBody;
 
+import javax.servlet.http.HttpSession;
+
 /**
  * 水费管理
  */
@@ -47,5 +49,35 @@ public class WaterController {
         model.addAttribute("pi",pi);
         model.addAttribute("v_name","*****");
         return "water_list";
+    }
+
+    /**
+     * 删除水费缴纳记录
+     */
+
+    @RequestMapping(value = "/delWater" ,method = RequestMethod.GET)
+    @ResponseBody
+    public String delVisitor(Integer w_id) {
+        System.out.println("visitorId" + w_id);
+        Integer w = waterService.delWater(w_id);
+        return "visitor_list";
+    }
+
+
+    @RequestMapping( "/findWaterById")
+    public String findWaterById(Integer w_id, HttpSession session) {
+
+        Water w= waterService.findWaterById(w_id);
+        session.setAttribute("w",w);
+        return "water_edit";
+    }
+
+    /**
+     * 修改水费记录
+     */
+    @RequestMapping( value = "/updateWater", method = RequestMethod.POST)
+    public String updateWater( Water water) {
+        int w = waterService.updateWater(water);
+        return "redirect:/getWaterList";
     }
 }

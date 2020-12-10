@@ -43,5 +43,19 @@ public class WaterServiceImpl implements WaterService {
         return pi;
     }
 
+    @Override
+    public Integer delWater(Integer id) {
+        return waterDao.delWater(id);
+    }
+
+    @Override
+    public Water findWaterById(Integer w_id) {
+        return waterDao.findWaterById(w_id);
+    }
+
+    @Override
+    public Integer updateWater(Water water) {
+        return waterDao.updateWater(water);
+    }
 
 }
