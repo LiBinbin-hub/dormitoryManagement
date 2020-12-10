@@ -1,5 +1,5 @@
 
-<%@ page contentType="text/html;charset=UTF-8" language="java" import="com.itheima.po.Visitor" %>
+<%@ page contentType="text/html;charset=UTF-8" language="java" import="com.itheima.po.Electric" %>
 <%@taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
 <%@ taglib uri="http://java.sun.com/jsp/jstl/fmt" prefix="fmt"%>
 
@@ -9,8 +9,6 @@
     <meta name="renderer" content="webkit|ie-comp|ie-stand">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <meta name="viewport" content="width=device-width,user-scalable=yes, minimum-scale=0.4, initial-scale=0.8,target-densitydpi=low-dpi" />
-    <%--<meta http-equiv="Cache-Control" content="no-siteapp" />--%>
-
     <link rel="icon" href="/images/favicon.ico" sizes="32x32" />
     <link rel="stylesheet" href="./css/font.css">
     <link rel="stylesheet" href="./css/xadmin.css">
@@ -33,16 +31,17 @@
 <div class="x-nav">
       <span class="layui-breadcrumb">
         <a href="">首页</a>
-        <a href="/findVisitor">访客信息</a>
+        <a href="/getElectricList">电费信息</a>
       </span>
-    <a class="layui-btn layui-btn-small" style="line-height:1.6em;margin-top:3px;float:right" href="/findVisitor" title="刷新">
+    <a class="layui-btn layui-btn-small" style="line-height:1.6em;margin-top:3px;float:right" href="/getElectricList" title="刷新">
         <i class="layui-icon" style="line-height:30px">刷新</i></a>
 </div>
 <div class="x-body">
     <div class="layui-row">
-        <form class="layui-form layui-col-md12 x-so" action="/findVisitor" >
-            <input class="layui-input" placeholder="请输入姓名" name="v_name" id="v_name">
-            <input class="layui-input" placeholder="请输入电话" name="v_phone" id="v_phone">
+        <form class="layui-form layui-col-md12 x-so" action="/getElectricList" >
+            <input class="layui-input" placeholder="请输入宿舍号" name="e_dormitoryid" id="e_dormitoryid">
+            <input class="layui-input" placeholder="请输入宿舍楼" name="e_dormbuilding" id="e_dormbuilding">
+            <input class="layui-input" placeholder="请输入缴纳月份" name="e_time" id="e_time">
 
             <input class="layui-input" type="hidden" name="pageIndex" value="1">
             <input class="layui-input" type="hidden" name="pageSize" value="5">
@@ -51,7 +50,6 @@
     </div>
     <xblock>
         <button id="addStudnetBtn" class="layui-btn layui-btn-normal"> <i class="layui-icon">&#xe654;</i>添加 </button>
-        <button class="layui-btn layui-btn-warm" lay-filter="toolbarDemo" lay-submit=""><i class="layui-icon">&#xe67c;</i>导出</button>
         <span class="x-right" style="line-height:40px">共有数据：${pi.totalCount} 条</span>
     </xblock>
 
@@ -61,30 +59,30 @@
             <form class="layui-form" id="addEmployeeForm">
 
                 <div class="layui-form-item">
-                    <label class="layui-form-label">访客姓名：</label>
+                    <label class="layui-form-label">缴纳金额：</label>
                     <div class="layui-input-block">
-                        <input type="text" lay-verify="required" name="v_name"  class="layui-input" placeholder="请输入姓名">
+                        <input type="text" lay-verify="required" name="e_money"  class="layui-input" placeholder="请输入缴纳金额">
                     </div>
                 </div>
 
                 <div class="layui-form-item">
-                    <label class="layui-form-label">访客电话：</label>
+                    <label class="layui-form-label">宿舍编号：</label>
                     <div class="layui-input-block">
-                        <input type="text"  name="v_phone"  class="layui-input" placeholder="请输入电话">
+                        <input type="text"  name="e_dormitoryid"  class="layui-input" placeholder="请输入宿舍编号">
                     </div>
                 </div>
 
                 <div class="layui-form-item">
-                    <label class="layui-form-label">访问宿舍编号：</label>
+                    <label class="layui-form-label">宿舍楼：</label>
                     <div class="layui-input-block">
-                        <input type="text" name="v_dormitoryid" class="layui-input" placeholder="请输入宿舍编号">
+                        <input type="text" name="e_dormbuilding"  class="layui-input" placeholder="请输入宿舍楼">
                     </div>
                 </div>
 
                 <div class="layui-form-item">
-                    <label class="layui-form-label">访问宿舍楼：</label>
+                    <label class="layui-form-label">缴纳时间：</label>
                     <div class="layui-input-block">
-                        <input type="text" name="v_dormbuilding"  class="layui-input" placeholder="请输入宿舍楼">
+                        <input type="text" name="e_time" class="layui-input" placeholder="请输入缴纳月份">
                     </div>
                 </div>
 
@@ -102,36 +100,28 @@
     <table class="layui-table">
         <thead>
         <tr>
-            <%--<th>--%>
-            <%--<div class="layui-unselect header layui-form-checkbox" lay-skin="primary"><i class="layui-icon">&#xe605;</i></div>--%>
-            <%--</th>--%>
             <th>ID</th>
-            <%--<th>学号</th>--%>
-            <th>访客姓名</th>
-            <%--<th>性别</th>--%>
-            <%--<th>年龄</th>--%>
-            <th>访客电话</th>
-            <th>访问宿舍编号</th>
-            <th>访问宿舍楼</th>
-            <th>访问时间</th>
-                <th>离开时间</th>
-                <th>操作</th>
+            <th>缴纳金额</th>
+            <th>宿舍编号</th>
+            <th>宿舍楼</th>
+            <th>月份</th>
+            <th>创建时间</th>
+            <th>操作</th>
         </thead>
         <tbody>
-        <c:forEach items="${pi.list}" var="visitor">
+        <c:forEach items="${pi.list}" var="electric">
             <tr>
-                <td>${visitor.v_id}</td>
-                <td>${visitor.v_name}</td>
-                <td>${visitor.v_phone}</td>
-                <td>${visitor.v_dormitoryid}</td>
-                <td>${visitor.v_dormbuilding}</td>
-                <td><fmt:formatDate pattern="yyyy-MM-dd HH:mm:ss" value="${visitor.create_time}"/></td>
-                <td><fmt:formatDate pattern="yyyy-MM-dd HH:mm:ss" value="${visitor.leave_time}"/></td>
+                <td>${electric.e_id}</td>
+                <td>${electric.e_money}</td>
+                <td>${electric.e_dormitoryid}</td>
+                <td>${electric.e_dormbuilding}</td>
+                <td>${electric.e_time}</td>
+                <td><fmt:formatDate pattern="yyyy-MM-dd HH:mm:ss" value="${electric.e_createtime}"/></td>
                 <td>
-                    <a title="编辑"    id= "updateEdit"    href="/findVisitorById?v_id=${visitor.v_id}">
+                    <a title="编辑"    id= "updateEdit"    href="/findElectricById?e_id=${electric.e_id}">
                         <i class="layui-icon">&#xe642;</i>
                     </a>
-                    <a title="删除" onclick="member_del(this,'${visitor.v_id}')" href="javascript:;">
+                    <a title="删除" onclick="member_del(this,'${electric.e_id}')" href="javascript:;">
                         <i class="layui-icon">&#xe640;</i>
                     </a>
                 </td>
@@ -168,66 +158,11 @@
             elem: '#start' //指定元素
         });
 
-        form.on('submit(toolbarDemo)', function(){
-
-            $.ajax({
-                url: '/exportvisitorlist',
-                type: 'post',
-                dataType: 'json',
-                contentType: "application/json; charset=utf-8",
-                success: function (data) {
-                    console.log(data);
-
-                    // 1. 如果需要调整顺序，请执行梳理函数
-                    var dt = excel.filterExportData(data, [
-                        'v_id'
-                        ,'v_name'
-                        ,'v_phone'
-                        ,'v_dormitoryid'
-                        ,'v_dormbuilding'
-                        ,'create_time'
-                    ]);
-
-                    // 2. 数组头部新增表头
-                    dt.unshift({v_id: 'ID', v_name: '访客姓名', v_phone: '访客电话', v_dormitoryid: '访问宿舍编号', v_dormbuilding: '访问宿舍楼', create_time: '访问时间'});
-
-                    // 意思是：A列40px，B列60px(默认)，C列120px，D、E、F等均未定义
-                    var colConf = excel.makeColConfig({
-                        'B': 80,
-                        'C': 90,
-                        'D': 100,
-                        'E': 100,
-                        'F': 160
-                    }, 60);
-
-                    var timestart = Date.now();
-                    // 3. 执行导出函数，系统会弹出弹框
-                    excel.exportExcel({
-                        sheet1: dt
-                    }, '访客数据.xlsx', 'xlsx', {
-                        extend: {
-                            '!cols': colConf
-                        }
-                    });
-                    var timeend = Date.now();
-
-                    var spent = (timeend - timestart) / 1000;
-                    layer.alert('导出耗时 '+spent+' s');
-                    //setTimeout(function () {window.location.href='/findAdmin';},2000);
-                },
-
-                error: function () {
-                    //console.log(data);
-                    setTimeout(function () {window.location.href='/findVisitor';},2000);
-                }
-            });
-        });
-
         /*添加弹出框*/
         $("#addStudnetBtn").click(function () {
             layer.open({
                 type:1,
-                title:"添加访客",
+                title:"添加电费缴费记录",
                 skin:"myclass",
                 area:["50%"],
                 anim:2,
@@ -239,17 +174,17 @@
                 var param=data.field;
                 // console.log(JSON.stringify(param));
                 $.ajax({
-                    url: '/addVisitor',
+                    url: '/addElectric',
                     type: "post",
                     data:JSON.stringify(param),
                     contentType: "application/json; charset=utf-8",
                     success:function(){
                         layer.msg('添加成功', {icon: 1, time: 3000});
-                        setTimeout(function () {window.location.href='/findVisitor';},2000);
+                        setTimeout(function () {window.location.href='/getElectricList';},2000);
                     },
                     error:function(){
                         layer.msg('添加失败',{icon:0,time:3000});
-                        setTimeout(function () {window.location.href='/findVisitor';},2000);
+                        setTimeout(function () {window.location.href='/getElectricList';},2000);
                     }
                 });
                 // return false;
@@ -257,19 +192,21 @@
         });
 
 
+
+
     });
 
-    function member_del(obj,v_id){
+    function member_del(obj,e_id){
         layer.confirm('确认要删除吗？',function(index){
             //发异步删除数据
-            $.get("/delVisitor",{"v_id":v_id},function (data) {
+            $.get("/delElectric",{"e_id":e_id},function (data) {
                 if(data =true){
                     layer.msg('删除成功!',{icon:1,time:2000});
-                    setTimeout(function () {window.location.href='/findVisitor';},2000);
+                    setTimeout(function () {window.location.href='/getElectricList';},2000);
 
                 }else {
                     layer.msg('删除失败!',{icon:1,time:3000});
-                    setTimeout(function () {window.location.href='/findVisitor';},2000);
+                    setTimeout(function () {window.location.href='/getElectricList';},2000);
                 }
             });
         });

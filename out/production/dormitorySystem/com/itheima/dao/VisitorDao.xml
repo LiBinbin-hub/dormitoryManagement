@@ -41,6 +41,7 @@
         select * from d_visitor;
     </select>
 
+    <!--删除访客信息-->
     <delete id="delVisitor" parameterType="Integer" >
         delete from d_visitor where v_id=#{visitorId}
     </delete>

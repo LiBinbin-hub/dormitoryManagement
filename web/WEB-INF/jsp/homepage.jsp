@@ -197,7 +197,7 @@
                     </li >
 
                     <li>
-                        <a _href="/findStudent">
+                        <a _href="/getElectricList">
                             <%--点击在右侧出现动态的Tab--%>
                             <i class="iconfont">&#xe6a7;</i>
                             <cite>电费管理</cite>
