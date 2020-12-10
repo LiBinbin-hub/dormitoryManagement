@@ -12,6 +12,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.ResponseBody;
 
+import javax.servlet.http.HttpSession;
+
 /**
  * 水费管理
  */
@@ -27,7 +29,8 @@ public class WaterController {
     @RequestMapping(value = "/addWater" ,method = RequestMethod.POST)
     @ResponseBody
     public String addWater(@RequestBody Water water) {
-        System.err.println("water: " + water);
+
+        System.out.println("water: " + water);
         int s = waterService.addWater(water);
         return "student_list";
     }
@@ -37,14 +40,44 @@ public class WaterController {
      * pageIndex 当前页码
      * pageSize  显示条数
      */
-    @RequestMapping(value = "/findWater")
-    public String findStudent(String s_name, Integer s_studentid,Integer s_classid, String s_classname,
-                              Integer pageIndex, Integer pageSize, Model model) {
+    @RequestMapping(value = "/getWaterList")
+    public String getWaterList(String w_dormitoryid, String w_dormbuilding , String w_time, Integer pageIndex,
+                              Integer pageSize, Model model) {
 
-//        PageInfo<Student> pi = studentService.findPageInfo(s_name,s_studentid,s_classid,
-//                s_classname,pageIndex,pageSize);
-//        model.addAttribute("pi",pi);
-//        model.addAttribute("s_name",s_name);
+        PageInfo<Water> pi = waterService.findPageInfo(w_dormitoryid, w_dormbuilding, w_time,
+                pageIndex,pageSize);
+        model.addAttribute("pi",pi);
+        model.addAttribute("v_name","*****");
         return "water_list";
+    }
+
+    /**
+     * 删除水费缴纳记录
+     */
+
+    @RequestMapping(value = "/delWater" ,method = RequestMethod.GET)
+    @ResponseBody
+    public String delVisitor(Integer w_id) {
+        System.out.println("visitorId" + w_id);
+        Integer w = waterService.delWater(w_id);
+        return "visitor_list";
+    }
+
+
+    @RequestMapping( "/findWaterById")
+    public String findWaterById(Integer w_id, HttpSession session) {
+
+        Water w= waterService.findWaterById(w_id);
+        session.setAttribute("w",w);
+        return "water_edit";
+    }
+
+    /**
+     * 修改水费记录
+     */
+    @RequestMapping( value = "/updateWater", method = RequestMethod.POST)
+    public String updateWater( Water water) {
+        int w = waterService.updateWater(water);
+        return "redirect:/getWaterList";
     }
 }

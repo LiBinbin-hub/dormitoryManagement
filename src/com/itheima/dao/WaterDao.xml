@@ -9,4 +9,67 @@
         values(#{w_time},#{w_dormitoryid},#{w_money},#{w_dormbuilding},now())
     </insert>
 
+    <!--查询数据总数-->
+    <select id="totalCount"  resultType="Integer">
+        select count(w_id) from d_water
+        <where>
+            <if test="w_dormitoryid != null and w_dormitoryid != ''">
+                and  w_dormitoryid like  '%${w_dormitoryid}%'
+            </if>
+            <if test="w_dormbuilding!=null and w_dormbuilding != ''">
+                and  w_dormbuilding like  '%${w_dormbuilding}%'
+            </if>
+            <if test="w_time !=null and w_time !='' ">
+                and w_time like '%${w_time}%'
+            </if>
+        </where>
+    </select>
+
+    <!--分页查询-->
+    <select id="getWaterList" parameterType="Water" resultType="Water">
+        select * from d_water
+        <where>
+            <if test="w_time != null and w_time != '' ">
+                and  w_time like  '%${w_time}%'
+            </if>
+            <if test="w_dormitoryid != null and w_dormitoryid != ''">
+                and  w_dormitoryid like  '%${w_dormitoryid}%'
+            </if>
+            <if test="w_dormbuilding != null and w_dormbuilding != ''">
+                and  w_dormbuilding like  '%${w_dormbuilding}%'
+            </if>
+        </where>
+        ORDER BY  w_createtime desc
+        limit #{currentPage},#{pageSize}
+    </select>
+
+    <!--删除水费缴纳记录-->
+    <delete id="delWater" parameterType="Integer" >
+        delete from d_water where w_id=#{id}
+    </delete>
+
+    <!--根据id查找记录-->
+    <select id="findWaterById"  parameterType="Integer" resultType="Water" >
+       select * from d_water where w_id=#{w_id}
+    </select>
+
+    <!--更新水费记录-->
+    <update id="updateWater" parameterType="Water">
+        update d_water
+        <set>
+            <if test="w_time!=null and w_time!=''">
+                w_time=#{w_time},
+            </if>
+            <if test="w_money !=null and w_money !=''">
+                w_money=#{w_money},
+            </if>
+            <if test="w_dormitoryid !=null and w_dormitoryid !=''">
+                w_dormitoryid=#{w_dormitoryid},
+            </if>
+            <if test="w_dormbuilding !=null and w_dormbuilding !=''">
+                w_dormbuilding=#{w_dormbuilding},
+            </if>
+        </set>
+        where w_id = #{w_id}
+    </update>
 </mapper>

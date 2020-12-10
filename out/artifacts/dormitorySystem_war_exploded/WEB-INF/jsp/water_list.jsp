@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <%--
   Created by IntelliJ IDEA.
   User: 周训凯
@@ -5,6 +6,8 @@
   Time: 0:04
   To change this template use File | Settings | File Templates.
 --%>
+=======
+>>>>>>> 877818b300a176d43c0ea13b71056f639a3af057
 <%@ page contentType="text/html;charset=UTF-8" language="java" import="com.itheima.po.Visitor" %>
 <%@taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
 <%@ taglib uri="http://java.sun.com/jsp/jstl/fmt" prefix="fmt"%>
@@ -15,7 +18,6 @@
     <meta name="renderer" content="webkit|ie-comp|ie-stand">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <meta name="viewport" content="width=device-width,user-scalable=yes, minimum-scale=0.4, initial-scale=0.8,target-densitydpi=low-dpi" />
-    <%--<meta http-equiv="Cache-Control" content="no-siteapp" />--%>
 
     <link rel="icon" href="/images/favicon.ico" sizes="32x32" />
     <link rel="stylesheet" href="./css/font.css">
@@ -39,16 +41,29 @@
 <div class="x-nav">
       <span class="layui-breadcrumb">
         <a href="">首页</a>
+<<<<<<< HEAD
         <a href="/findVisitor">访客信息</a>
       </span>
     <a class="layui-btn layui-btn-small" style="line-height:1.6em;margin-top:3px;float:right" href="/findVisitor" title="刷新">
+=======
+        <a href="/findWater">水费信息</a>
+      </span>
+    <a class="layui-btn layui-btn-small" style="line-height:1.6em;margin-top:3px;float:right" href="/getWaterList" title="刷新">
+>>>>>>> 877818b300a176d43c0ea13b71056f639a3af057
         <i class="layui-icon" style="line-height:30px">刷新</i></a>
 </div>
 <div class="x-body">
     <div class="layui-row">
+<<<<<<< HEAD
         <form class="layui-form layui-col-md12 x-so" action="/findVisitor" >
             <input class="layui-input" placeholder="请输入姓名" name="v_name" id="v_name">
             <input class="layui-input" placeholder="请输入电话" name="v_phone" id="v_phone">
+=======
+        <form class="layui-form layui-col-md12 x-so" action="/getWaterList" >
+            <input class="layui-input" placeholder="请输入宿舍号" name="w_dormitoryid" id="w_dormitoryid">
+            <input class="layui-input" placeholder="请输入宿舍楼" name="w_dormbuilding" id="w_dormbuilding">
+            <input class="layui-input" placeholder="请输入缴纳月份" name="w_time" id="w_time">
+>>>>>>> 877818b300a176d43c0ea13b71056f639a3af057
 
             <input class="layui-input" type="hidden" name="pageIndex" value="1">
             <input class="layui-input" type="hidden" name="pageSize" value="5">
@@ -56,7 +71,7 @@
         </form>
     </div>
     <xblock>
-        <button id="addStudnetBtn" class="layui-btn layui-btn-normal"> <i class="layui-icon">&#xe654;</i>添加 </button>
+        <button id="addStudnetBtn" onclick="editWaterBtn('${visitor.v_id}')" class="layui-btn layui-btn-normal"> <i class="layui-icon">&#xe654;</i>添加 </button>
         <button class="layui-btn layui-btn-warm" lay-filter="toolbarDemo" lay-submit=""><i class="layui-icon">&#xe67c;</i>导出</button>
         <span class="x-right" style="line-height:40px">共有数据：${pi.totalCount} 条</span>
     </xblock>
@@ -74,23 +89,35 @@
                 </div>
 
                 <div class="layui-form-item">
+<<<<<<< HEAD
                     <label class="layui-form-label">宿舍编号：</label>
                     <div class="layui-input-block">
                         <input type="text"  name="w_dormitoryid"  class="layui-input" placeholder="请输入宿舍编号">
-                    </div>
-                </div>
-
-                <div class="layui-form-item">
-                    <label class="layui-form-label">宿舍楼：</label>
+=======
+                    <label class="layui-form-label">缴纳时间：</label>
                     <div class="layui-input-block">
-                        <input type="text" name="w_dormbuilding" class="layui-input" placeholder="请输入宿舍楼">
+                        <input type="text"  name="w_time"  class="layui-input" placeholder="请输入缴纳月份">
+>>>>>>> 877818b300a176d43c0ea13b71056f639a3af057
                     </div>
                 </div>
 
                 <div class="layui-form-item">
+                    <label class="layui-form-label">缴纳宿舍编号：</label>
+                    <div class="layui-input-block">
+                        <input type="text" name="w_dormitoryid" class="layui-input" placeholder="请输入宿舍编号">
+                    </div>
+                </div>
+
+                <div class="layui-form-item">
+<<<<<<< HEAD
                     <label class="layui-form-label">缴纳时间：</label>
                     <div class="layui-input-block">
                         <input type="text" name="w_time"  class="layui-input" placeholder="请输入缴纳时间">
+=======
+                    <label class="layui-form-label">缴纳宿舍楼：</label>
+                    <div class="layui-input-block">
+                        <input type="text" name="w_dormbuilding"  class="layui-input" placeholder="请输入宿舍楼">
+>>>>>>> 877818b300a176d43c0ea13b71056f639a3af057
                     </div>
                 </div>
 
@@ -104,10 +131,57 @@
         </div>
     </div>
 
+<<<<<<< HEAD
+=======
+    <%--编辑模态框--%>
+    <div class="layui-row" id="test1" style="display: none;">
+        <div class="layui-col-md10">
+            <form class="layui-form" id="addEmployeeForm1">
+
+                <div class="layui-form-item">
+                    <label class="layui-form-label">缴纳金额：</label>
+                    <div class="layui-input-block">
+                        <input type="text" lay-verify="required" name="w_money"  class="layui-input" placeholder="请输入缴纳金额">
+                    </div>
+                </div>
+
+                <div class="layui-form-item">
+                    <label class="layui-form-label">缴纳时间：</label>
+                    <div class="layui-input-block">
+                        <input type="text"  name="w_time"  class="layui-input" placeholder="请输入缴纳月份">
+                    </div>
+                </div>
+
+                <div class="layui-form-item">
+                    <label class="layui-form-label">缴纳宿舍编号：</label>
+                    <div class="layui-input-block">
+                        <input type="text" name="w_dormitoryid" class="layui-input" placeholder="请输入宿舍编号">
+                    </div>
+                </div>
+
+                <div class="layui-form-item">
+                    <label class="layui-form-label">缴纳宿舍楼：</label>
+                    <div class="layui-input-block">
+                        <input type="text" name="w_dormbuilding"  class="layui-input" placeholder="请输入宿舍楼">
+                    </div>
+                </div>
+
+                <div class="layui-form-item">
+                    <div class="layui-input-block">
+                        <button type="button" class="layui-btn layui-btn-normal" lay-submit lay-filter="formDemo1">提交</button>
+                        <button type="reset" class="layui-btn layui-btn-primary">重置</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+
+>>>>>>> 877818b300a176d43c0ea13b71056f639a3af057
     <%--表格数据--%>
     <table class="layui-table">
         <thead>
         <tr>
+<<<<<<< HEAD
             <%--<th>--%>
             <%--<div class="layui-unselect header layui-form-checkbox" lay-skin="primary"><i class="layui-icon">&#xe605;</i></div>--%>
             <%--</th>--%>
@@ -137,6 +211,27 @@
                     <a title="编辑"    id= "updateEdit"    href="/findVisitorById?v_id=${visitor.v_id}">
                         <i class="layui-icon">&#xe642;</i>
                     </a>
+=======
+            <th>ID</th>
+            <th>缴纳金额</th>
+            <th>缴纳月份</th>
+            <th>宿舍编号</th>
+            <th>宿舍楼</th>
+            <th>缴纳时间</th>
+            <th>操作</th>
+        </thead>
+        <tbody>
+        <c:forEach items="${pi.list}" var="water">
+            <tr>
+                <td>${water.w_id}</td>
+                <td>${water.w_money}</td>
+                <td>${water.w_time}</td>
+                <td>${water.w_dormitoryid}</td>
+                <td>${water.w_dormbuilding}</td>
+                <td><fmt:formatDate pattern="yyyy-MM-dd HH:mm:ss" value="${water.w_createtime}"/></td>
+                <td>
+                    <button id="editWaterBtn" onclick="'${water.w_id}'" class="layui-btn layui-btn-normal"> <i class="layui-icon">&#xe654;</i>编辑 </button>
+>>>>>>> 877818b300a176d43c0ea13b71056f639a3af057
                     <a title="删除" onclick="member_del(this,'${visitor.v_id}')" href="javascript:;">
                         <i class="layui-icon">&#xe640;</i>
                     </a>
@@ -224,7 +319,11 @@
 
                 error: function () {
                     //console.log(data);
+<<<<<<< HEAD
                     setTimeout(function () {window.location.href='/findVisitor';},2000);
+=======
+                    setTimeout(function () {window.location.href='/findWater';},2000);
+>>>>>>> 877818b300a176d43c0ea13b71056f639a3af057
                 }
             });
         });
@@ -240,7 +339,7 @@
                 content:$("#test").html()
             });
             $("#addEmployeeForm")[0].reset();
-            form.on('submit(formDemo)', function(data) {
+            form.on('submit(formDemo1)', function(data) {
                 // layer.msg('aaa',{icon:1,time:3000});
                 var param=data.field;
                 // console.log(JSON.stringify(param));
@@ -251,11 +350,15 @@
                     contentType: "application/json; charset=utf-8",
                     success:function(){
                         layer.msg('添加成功', {icon: 1, time: 3000});
+<<<<<<< HEAD
                         setTimeout(function () {window.location.href='/findWater';},2000);
+=======
+                        setTimeout(function () {window.location.href='/getWaterList';},2000);
+>>>>>>> 877818b300a176d43c0ea13b71056f639a3af057
                     },
                     error:function(){
                         layer.msg('添加失败',{icon:0,time:3000});
-                        setTimeout(function () {window.location.href='/findWater';},2000);
+                        setTimeout(function () {window.location.href='/getWaterList';},2000);
                     }
                 });
                 // return false;
@@ -271,16 +374,66 @@
             $.get("/delVisitor",{"v_id":v_id},function (data) {
                 if(data =true){
                     layer.msg('删除成功!',{icon:1,time:2000});
+<<<<<<< HEAD
                     setTimeout(function () {window.location.href='/findVisitor';},2000);
 
                 }else {
                     layer.msg('删除失败!',{icon:1,time:3000});
                     setTimeout(function () {window.location.href='/findVisitor';},2000);
+=======
+                    setTimeout(function () {window.location.href='/getWaterList';},2000);
+
+                }else {
+                    layer.msg('删除失败!',{icon:1,time:3000});
+                    setTimeout(function () {window.location.href='/getWaterList';},2000);
+>>>>>>> 877818b300a176d43c0ea13b71056f639a3af057
                 }
             });
         });
     }
+<<<<<<< HEAD
 </script>
 </body>
 </html>
 
+=======
+
+    /*编辑弹出框*/
+        $("#editWaterBtn").click(function (w_id) {
+            layer.open({
+                type:1,
+                title:"修改缴费记录",
+                skin:"myclass",
+                area:["50%"],
+                anim:2,
+                content:$("#test1").html()
+            });
+            $("#addEmployeeForm1")[0].reset();
+            form.on('submit(formDemo1)', function(data) {
+                // layer.msg('aaa',{icon:1,time:3000});
+                data.add({"w_id":w_id},)
+                var param=data.field;
+                // console.log(JSON.stringify(param));
+                $.ajax({
+                    url: '/updateWater',
+                    type: "post",
+                    data:JSON.stringify(param),
+                    contentType: "application/json; charset=utf-8",
+                    success:function(){
+                        layer.msg('添加成功', {icon: 1, time: 3000});
+                        setTimeout(function () {window.location.href='/getWaterList';},2000);
+                    },
+                    error:function(){
+                        layer.msg('添加失败',{icon:0,time:3000});
+                        setTimeout(function () {window.location.href='/getWaterList';},2000);
+                    }
+                });
+                // return false;
+            });
+        });
+
+
+</script>
+</body>
+</html>
+>>>>>>> 877818b300a176d43c0ea13b71056f639a3af057

@@ -189,7 +189,7 @@
                 </a>
                 <ul class="sub-menu">
                     <li>
-                        <a _href="/findWater">
+                        <a _href="/getWaterList">
                             <%--点击在右侧出现动态的Tab--%>
                             <i class="iconfont">&#xe6a7;</i>
                             <cite>水费管理</cite>
