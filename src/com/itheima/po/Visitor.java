@@ -20,9 +20,11 @@ public class Visitor {
     private Integer v_dormitoryid;
     private String v_dormbuilding;
 
+    @DateTimeFormat(pattern="yyyy-MM-dd HH:mm:ss")
     @JsonFormat(pattern="yyyy-MM-dd HH:mm:ss",timezone = "GMT+8")
     private Date create_time;
 
+    @DateTimeFormat(pattern="yyyy-MM-dd HH:mm:ss")
     @JsonFormat(pattern="yyyy-MM-dd HH:mm:ss",timezone = "GMT+8")
     private Date leave_time;
 }

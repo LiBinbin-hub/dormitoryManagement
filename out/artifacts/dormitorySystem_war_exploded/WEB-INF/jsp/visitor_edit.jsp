@@ -1,6 +1,7 @@
 
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <%@taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
+<%@ taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt" %>
 <html>
 <head>
     <title>修改信息</title>
@@ -64,8 +65,9 @@
                 <span class="f_sp">访问时间</span>
             </label>
             <div class="layui-input-inline">
-                <input type="text" id="create_time" name="create_time"
-                       autocomplete="off" value="${sessionScope.v.create_time}" class="layui-input">
+                <input type="text" id="create_time" name="create_time" class="layui-input"
+                       <fmt:formatDate pattern="yyyy-MM-dd HH:mm:ss" value="${sessionScope.v.create_time}"/>
+                       >
             </div>
         </div>
 
@@ -74,8 +76,7 @@
                 <span class="f_sp">离开时间</span>
             </label>
             <div class="layui-input-inline">
-                <input type="text" id="leave_time" name="leave_time"
-                       autocomplete="off" value="${sessionScope.v.leave_time}" class="layui-input">
+                <input type="text" id="leave_time" name="leave_time" class="layui-input" value="${sessionScope.v.leave_time}">
             </div>
         </div>
 
@@ -89,7 +90,24 @@
 
 <script>
 
-    $('#create_time').datetimepicker();
+    layui.use('laydate', function () {
+
+        var laydate = layui.laydate;
+
+        laydate.render({
+            elem: '#create_time',
+            type: 'datetime'
+        });
+    });
+
+    layui.use('laydate', function () {
+        var laydate = layui.laydate;
+
+        laydate.render({
+            elem: '#leave_time',
+            type: 'datetime'
+        });
+    });
 </script>
 </body>
 </html>
