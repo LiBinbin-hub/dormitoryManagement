@@ -6,10 +6,7 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c950e1df-adaf-4f90-9202-51a6e8067305" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/itheima/controller/WaterController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/itheima/controller/WaterController.java" afterDir="false" />
-    </list>
+    <list default="true" id="c950e1df-adaf-4f90-9202-51a6e8067305" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -58,8 +55,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsp/electric_list.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="504">
-              <caret line="61" column="6" lean-forward="true" selection-start-line="61" selection-start-column="6" selection-end-line="61" selection-end-column="6" />
+            <state relative-caret-position="2196">
+              <caret line="61" column="6" selection-start-line="61" selection-start-column="6" selection-end-line="61" selection-end-column="6" />
             </state>
           </provider>
         </entry>
@@ -67,7 +64,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/itheima/controller/WaterController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-419">
+            <state relative-caret-position="792">
               <caret line="34" column="21" selection-start-line="34" selection-start-column="21" selection-end-line="34" selection-end-column="21" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -113,8 +110,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/itheima/controller/ElectricController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2124">
-              <caret line="72" column="27" selection-start-line="72" selection-start-column="27" selection-end-line="72" selection-end-column="27" />
+            <state relative-caret-position="-308">
+              <caret line="27" column="8" selection-start-line="27" selection-start-column="8" selection-end-line="27" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -275,7 +272,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="183" />
     <option name="y" value="76" />
     <option name="width" value="1179" />
@@ -289,12 +286,20 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="CatdeaLogs" />
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="DormitoryManager" type="b2602c69:ProjectViewProjectNode" />
               <item name="DormitoryManager" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DormitoryManager" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DormitoryManager" type="462c0819:PsiDirectoryNode" />
+              <item name=".idea" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="DormitoryManager" type="b2602c69:ProjectViewProjectNode" />
@@ -377,9 +382,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
-      <pane id="CatdeaLogs" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -625,16 +627,17 @@
       <workItem from="1607476093669" duration="20106000" />
       <workItem from="1607562868717" duration="18190000" />
       <workItem from="1607648624268" duration="768000" />
+      <workItem from="1607908998972" duration="252000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="685423000" />
+    <option name="totallyTimeSpent" value="685675000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1618" height="1170" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2924282" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28198433" />
       <window_info id="Structure" order="1" show_stripe_button="false" weight="0.24934725" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -1009,6 +1012,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsp/electric_list.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2196">
+          <caret line="61" column="6" selection-start-line="61" selection-start-column="6" selection-end-line="61" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/itheima/controller/WaterController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="792">
+          <caret line="34" column="21" selection-start-line="34" selection-start-column="21" selection-end-line="34" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/itheima/dao/ElectricDao.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="324">
@@ -1058,27 +1078,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsp/electric_list.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="61" column="6" lean-forward="true" selection-start-line="61" selection-start-column="6" selection-end-line="61" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/itheima/controller/WaterController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-419">
-          <caret line="34" column="21" selection-start-line="34" selection-start-column="21" selection-end-line="34" selection-end-column="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/itheima/controller/ElectricController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2124">
-          <caret line="72" column="27" selection-start-line="72" selection-start-column="27" selection-end-line="72" selection-end-column="27" />
+        <state relative-caret-position="-308">
+          <caret line="27" column="8" selection-start-line="27" selection-start-column="8" selection-end-line="27" selection-end-column="8" />
         </state>
       </provider>
     </entry>
