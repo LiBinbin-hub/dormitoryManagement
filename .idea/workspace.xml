@@ -7,48 +7,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c950e1df-adaf-4f90-9202-51a6e8067305" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/itheima/controller/ElectricController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/itheima/dao/ElectricDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/itheima/dao/ElectricDao.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/itheima/po/Electric.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/itheima/service/ElectricService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/jsp/electric_edit.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/jsp/electric_list.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/jsp/water_edit.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/dormitorySystem_war_exploded/WEB-INF/classes/com/itheima/controller/WaterController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/dormitorySystem_war_exploded/WEB-INF/classes/com/itheima/controller/WaterController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/dormitorySystem_war_exploded/WEB-INF/classes/com/itheima/dao/VisitorDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/dormitorySystem_war_exploded/WEB-INF/classes/com/itheima/dao/VisitorDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/dormitorySystem_war_exploded/WEB-INF/classes/com/itheima/dao/VisitorDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/dormitorySystem_war_exploded/WEB-INF/classes/com/itheima/dao/VisitorDao.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/dormitorySystem_war_exploded/WEB-INF/classes/com/itheima/dao/WaterDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/dormitorySystem_war_exploded/WEB-INF/classes/com/itheima/dao/WaterDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/dormitorySystem_war_exploded/WEB-INF/classes/com/itheima/dao/WaterDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/dormitorySystem_war_exploded/WEB-INF/classes/com/itheima/dao/WaterDao.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/dormitorySystem_war_exploded/WEB-INF/classes/com/itheima/service/WaterService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/dormitorySystem_war_exploded/WEB-INF/classes/com/itheima/service/WaterService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/dormitorySystem_war_exploded/WEB-INF/classes/com/itheima/service/impl/VisitorServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/dormitorySystem_war_exploded/WEB-INF/classes/com/itheima/service/impl/VisitorServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/dormitorySystem_war_exploded/WEB-INF/classes/com/itheima/service/impl/WaterServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/dormitorySystem_war_exploded/WEB-INF/classes/com/itheima/service/impl/WaterServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/dormitorySystem_war_exploded/WEB-INF/jsp/studentclean_list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/dormitorySystem_war_exploded/WEB-INF/jsp/studentclean_list.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/dormitorySystem_war_exploded/WEB-INF/jsp/visitor_edit.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/dormitorySystem_war_exploded/WEB-INF/jsp/visitor_edit.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/dormitorySystem_war_exploded/WEB-INF/jsp/visitor_list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/dormitorySystem_war_exploded/WEB-INF/jsp/visitor_list.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/dormitorySystem_war_exploded/WEB-INF/jsp/water_list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/dormitorySystem_war_exploded/WEB-INF/jsp/water_list.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/dormitorySystem/com/itheima/controller/WaterController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/dormitorySystem/com/itheima/controller/WaterController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/dormitorySystem/com/itheima/dao/VisitorDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/dormitorySystem/com/itheima/dao/VisitorDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/dormitorySystem/com/itheima/dao/VisitorDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/dormitorySystem/com/itheima/dao/VisitorDao.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/dormitorySystem/com/itheima/dao/WaterDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/dormitorySystem/com/itheima/dao/WaterDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/dormitorySystem/com/itheima/dao/WaterDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/dormitorySystem/com/itheima/dao/WaterDao.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/dormitorySystem/com/itheima/service/WaterService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/dormitorySystem/com/itheima/service/WaterService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/dormitorySystem/com/itheima/service/impl/VisitorServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/dormitorySystem/com/itheima/service/impl/VisitorServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/dormitorySystem/com/itheima/service/impl/WaterServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/dormitorySystem/com/itheima/service/impl/WaterServiceImpl.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/itheima/controller/WaterController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/itheima/controller/WaterController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/itheima/dao/VisitorDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/itheima/dao/VisitorDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/itheima/dao/VisitorDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/itheima/dao/VisitorDao.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/itheima/dao/WaterDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/itheima/dao/WaterDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/itheima/dao/WaterDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/itheima/dao/WaterDao.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/itheima/service/WaterService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/itheima/service/WaterService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/itheima/service/impl/WaterServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/itheima/service/impl/WaterServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/jsp/homepage.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/jsp/homepage.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/jsp/studentclean_list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/jsp/studentclean_list.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/jsp/visitor_edit.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/jsp/visitor_edit.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/jsp/visitor_list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/jsp/visitor_list.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/jsp/water_list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/jsp/water_list.jsp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -87,28 +47,31 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/itheima/dao/WaterDao.xml">
+        <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsp/homepage.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2340">
-              <caret line="65" column="48" selection-start-line="65" selection-start-column="48" selection-end-line="65" selection-end-column="48" />
+            <state relative-caret-position="7272">
+              <caret line="202" column="45" selection-start-line="202" selection-start-column="45" selection-end-line="202" selection-end-column="45" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsp/homepage.jsp">
+        <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsp/electric_list.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="394">
-              <caret line="202" column="45" lean-forward="true" selection-start-line="202" selection-start-column="45" selection-end-line="202" selection-end-column="45" />
+            <state relative-caret-position="504">
+              <caret line="61" column="6" lean-forward="true" selection-start-line="61" selection-start-column="6" selection-end-line="61" selection-end-column="6" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsp/electric_list.jsp">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/itheima/controller/WaterController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="428">
-              <caret line="35" column="129" lean-forward="true" selection-start-line="35" selection-start-column="129" selection-end-line="35" selection-end-column="129" />
+            <state relative-caret-position="-419">
+              <caret line="34" column="21" selection-start-line="34" selection-start-column="21" selection-end-line="34" selection-end-column="21" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -116,7 +79,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/itheima/dao/ElectricDao.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
+            <state relative-caret-position="324">
               <caret line="12" column="12" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="12" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -128,8 +91,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/itheima/dao/ElectricDao.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="124">
-              <caret line="60" column="33" lean-forward="true" selection-start-line="60" selection-start-column="33" selection-end-line="60" selection-end-column="33" />
+            <state relative-caret-position="2160">
+              <caret line="60" column="33" selection-start-line="60" selection-start-column="33" selection-end-line="60" selection-end-column="33" />
             </state>
           </provider>
         </entry>
@@ -137,22 +100,20 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/itheima/service/impl/ElectricServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="336">
-              <caret line="25" column="31" lean-forward="true" selection-start-line="25" selection-start-column="31" selection-end-line="25" selection-end-column="31" />
+            <state relative-caret-position="468">
+              <caret line="25" column="31" selection-start-line="25" selection-start-column="31" selection-end-line="25" selection-end-column="31" />
               <folding>
                 <element signature="e#702#703#0" expanded="true" />
                 <element signature="e#758#759#0" expanded="true" />
-                <element signature="e#1795#1796#0" expanded="true" />
-                <element signature="e#1852#1853#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/itheima/controller/ElectricController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="423">
+            <state relative-caret-position="2124">
               <caret line="72" column="27" selection-start-line="72" selection-start-column="27" selection-end-line="72" selection-end-column="27" />
             </state>
           </provider>
@@ -161,8 +122,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsp/electric_edit.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="36">
-              <caret line="60" column="20" lean-forward="true" selection-start-line="60" selection-start-column="20" selection-end-line="60" selection-end-column="20" />
+            <state relative-caret-position="2160">
+              <caret line="60" column="20" selection-start-line="60" selection-start-column="20" selection-end-line="60" selection-end-column="20" />
             </state>
           </provider>
         </entry>
@@ -179,7 +140,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/itheima/service/ElectricService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
+            <state relative-caret-position="396">
               <caret line="13" column="8" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="8" />
             </state>
           </provider>
@@ -281,7 +242,6 @@
         <option value="$PROJECT_DIR$/src/com/itheima/dao/VisitorDao.xml" />
         <option value="$PROJECT_DIR$/src/com/itheima/service/WaterService.java" />
         <option value="$PROJECT_DIR$/src/com/itheima/dao/WaterDao.java" />
-        <option value="$PROJECT_DIR$/src/com/itheima/controller/WaterController.java" />
         <option value="$PROJECT_DIR$/src/com/itheima/service/impl/WaterServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/com/itheima/dao/WaterDao.xml" />
         <option value="$PROJECT_DIR$/src/com/itheima/po/Electric.java" />
@@ -298,6 +258,7 @@
         <option value="$PROJECT_DIR$/src/com/itheima/controller/ElectricController.java" />
         <option value="$PROJECT_DIR$/src/com/itheima/dao/ElectricDao.xml" />
         <option value="$PROJECT_DIR$/web/WEB-INF/jsp/electric_list.jsp" />
+        <option value="$PROJECT_DIR$/src/com/itheima/controller/WaterController.java" />
       </list>
     </option>
   </component>
@@ -314,7 +275,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="183" />
     <option name="y" value="76" />
     <option name="width" value="1179" />
@@ -416,9 +377,9 @@
           <select />
         </subPane>
       </pane>
-      <pane id="CatdeaLogs" />
       <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="CatdeaLogs" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -662,18 +623,18 @@
       <workItem from="1607302170329" duration="7818000" />
       <workItem from="1607389392445" duration="3526000" />
       <workItem from="1607476093669" duration="20106000" />
-      <workItem from="1607562868717" duration="15636000" />
+      <workItem from="1607562868717" duration="18190000" />
+      <workItem from="1607648624268" duration="768000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="682101000" />
+    <option name="totallyTimeSpent" value="685423000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1618" height="1170" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.31657964" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2924282" />
       <window_info id="Structure" order="1" show_stripe_button="false" weight="0.24934725" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -978,16 +939,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/itheima/controller/WaterController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="541">
-          <caret line="79" column="33" lean-forward="true" selection-start-line="79" selection-start-column="33" selection-end-line="79" selection-end-column="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsp/water_list.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="108">
@@ -1053,8 +1004,43 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsp/homepage.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="394">
-          <caret line="202" column="45" lean-forward="true" selection-start-line="202" selection-start-column="45" selection-end-line="202" selection-end-column="45" />
+        <state relative-caret-position="7272">
+          <caret line="202" column="45" selection-start-line="202" selection-start-column="45" selection-end-line="202" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/itheima/dao/ElectricDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="12" column="12" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/itheima/dao/ElectricDao.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2160">
+          <caret line="60" column="33" selection-start-line="60" selection-start-column="33" selection-end-line="60" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/itheima/service/impl/ElectricServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="468">
+          <caret line="25" column="31" selection-start-line="25" selection-start-column="31" selection-end-line="25" selection-end-column="31" />
+          <folding>
+            <element signature="e#702#703#0" expanded="true" />
+            <element signature="e#758#759#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsp/electric_edit.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2160">
+          <caret line="60" column="20" selection-start-line="60" selection-start-column="20" selection-end-line="60" selection-end-column="20" />
         </state>
       </provider>
     </entry>
@@ -1067,28 +1053,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/itheima/service/ElectricService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
+        <state relative-caret-position="396">
           <caret line="13" column="8" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="8" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/itheima/service/impl/ElectricServiceImpl.java">
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsp/electric_list.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="25" column="31" lean-forward="true" selection-start-line="25" selection-start-column="31" selection-end-line="25" selection-end-column="31" />
-          <folding>
-            <element signature="e#702#703#0" expanded="true" />
-            <element signature="e#758#759#0" expanded="true" />
-            <element signature="e#1795#1796#0" expanded="true" />
-            <element signature="e#1852#1853#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="504">
+          <caret line="61" column="6" lean-forward="true" selection-start-line="61" selection-start-column="6" selection-end-line="61" selection-end-column="6" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/itheima/dao/ElectricDao.java">
+    <entry file="file://$PROJECT_DIR$/src/com/itheima/controller/WaterController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="12" column="12" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="12" />
+        <state relative-caret-position="-419">
+          <caret line="34" column="21" selection-start-line="34" selection-start-column="21" selection-end-line="34" selection-end-column="21" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1097,29 +1077,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/itheima/controller/ElectricController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="423">
+        <state relative-caret-position="2124">
           <caret line="72" column="27" selection-start-line="72" selection-start-column="27" selection-end-line="72" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsp/electric_edit.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="60" column="20" lean-forward="true" selection-start-line="60" selection-start-column="20" selection-end-line="60" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/itheima/dao/ElectricDao.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="124">
-          <caret line="60" column="33" lean-forward="true" selection-start-line="60" selection-start-column="33" selection-end-line="60" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsp/electric_list.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="428">
-          <caret line="35" column="129" lean-forward="true" selection-start-line="35" selection-start-column="129" selection-end-line="35" selection-end-column="129" />
         </state>
       </provider>
     </entry>

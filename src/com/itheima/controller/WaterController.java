@@ -32,7 +32,7 @@ public class WaterController {
 
         System.out.println("water: " + water);
         int s = waterService.addWater(water);
-        return "student_list";
+        return "water_list";
     }
 
     /**
@@ -57,10 +57,10 @@ public class WaterController {
 
     @RequestMapping(value = "/delWater" ,method = RequestMethod.GET)
     @ResponseBody
-    public String delVisitor(Integer w_id) {
+    public String delWater(Integer w_id) {
         System.out.println("visitorId" + w_id);
         Integer w = waterService.delWater(w_id);
-        return "visitor_list";
+        return "water_list";
     }
 
 
