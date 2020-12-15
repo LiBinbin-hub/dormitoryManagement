@@ -24,7 +24,7 @@ public interface WaterService {
      * @return
      */
     PageInfo<Water> findPageInfo(String w_dormitoryid, String w_dormbuilding, String w_time,
-                                 Integer pageIndex,Integer pageSize);
+                                 Integer pageIndex, Integer pageSize);
 
     /**
      * 删除水费缴纳记录

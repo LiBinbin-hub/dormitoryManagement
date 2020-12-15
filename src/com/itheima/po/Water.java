@@ -13,6 +13,7 @@ public class Water {
     private String w_dormitoryid;
     private String w_money;
     private String w_dormbuilding;
+
     @JsonFormat(pattern="yyyy-MM-dd HH:mm:ss",timezone = "GMT+8")
     private Date w_createtime;
 }

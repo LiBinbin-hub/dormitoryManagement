@@ -230,12 +230,12 @@
             <th>操作</th>
         </thead>
         <tbody>
-<c:forEach items="${pi.list}" var="student">
+<c:forEach items="${pi.list}" var="student" varStatus="index">
         <tr>
             <%--<td>--%>
                 <%--<div class="layui-unselect layui-form-checkbox" lay-skin="primary" data-id='2'><i class="layui-icon">&#xe605;</i></div>--%>
             <%--</td>--%>
-            <td>${student.s_id}</td>
+            <td>${index.index + 1}</td>
             <td>${student.s_studentid}</td>
             <td>${student.s_name}</td>
             <td>${student.s_sex}</td>

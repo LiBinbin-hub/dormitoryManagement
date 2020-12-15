@@ -102,25 +102,20 @@
     <table class="layui-table">
         <thead>
         <tr>
-            <%--<th>--%>
-            <%--<div class="layui-unselect header layui-form-checkbox" lay-skin="primary"><i class="layui-icon">&#xe605;</i></div>--%>
-            <%--</th>--%>
             <th>ID</th>
-            <%--<th>学号</th>--%>
             <th>访客姓名</th>
-            <%--<th>性别</th>--%>
-            <%--<th>年龄</th>--%>
             <th>访客电话</th>
             <th>访问宿舍编号</th>
             <th>访问宿舍楼</th>
             <th>访问时间</th>
-                <th>离开时间</th>
-                <th>操作</th>
+            <th>离开时间</th>
+            <th>操作</th>
         </thead>
         <tbody>
-        <c:forEach items="${pi.list}" var="visitor">
+        <c:forEach items="${pi.list}" var="visitor" varStatus="index">
             <tr>
-                <td>${visitor.v_id}</td>
+
+                <td>${index.index + 1}</td>
                 <td>${visitor.v_name}</td>
                 <td>${visitor.v_phone}</td>
                 <td>${visitor.v_dormitoryid}</td>

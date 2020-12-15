@@ -122,9 +122,9 @@
             <th>操作</th>
         </thead>
         <tbody>
-        <c:forEach items="${di.list}" var="di">
+        <c:forEach items="${di.list}" var="di" varStatus="index">
             <tr>
-                <td>${di.r_id}</td>
+                <td>${index.index + 1}</td>
                 <td>${di.d_id}</td>
                 <td>${di.d_dormbuilding}</td>
                 <td>${di.r_name}</td>

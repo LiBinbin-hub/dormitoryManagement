@@ -109,9 +109,9 @@
             <th>操作</th>
         </thead>
         <tbody>
-<c:forEach items="${ci.list}" var="ci">
+<c:forEach items="${ci.list}" var="ci" varStatus="index">
         <tr>
-            <td>${ci.c_id}</td>
+            <td>${index.index + 1}</td>
             <td>${ci.c_classid}</td>
             <td>${ci.c_classname}</td>
             <td>${ci.c_counsellor}</td>

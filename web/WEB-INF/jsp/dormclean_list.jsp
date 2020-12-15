@@ -1,10 +1,4 @@
-<%--
-  Created by IntelliJ IDEA.
-  User: 周训凯
-  Date: 2019/4/24
-  Time: 23:00
-  To change this template use File | Settings | File Templates.
---%>
+
 <%@ page contentType="text/html;charset=UTF-8" language="java"  import="com.itheima.po.DormClean" %>
 <%@taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
 <%@ taglib uri="http://java.sun.com/jsp/jstl/fmt" prefix="fmt"%>
@@ -114,12 +108,9 @@
             <th>操作</th>
         </thead>
         <tbody>
-        <c:forEach items="${di.list}" var="di">
+        <c:forEach items="${di.list}" var="di" varStatus="index">
             <tr>
-                <%--<td>--%>
-                    <%--<div class="layui-unselect layui-form-checkbox" lay-skin="primary" data-id='2'><i class="layui-icon">&#xe605;</i></div>--%>
-                <%--</td>--%>
-                <td>${di.g_id}</td>
+                <td>${index.index + 1}</td>
                 <td>${di.d_id}</td>
                 <td>${di.d_dormbuilding}</td>
                 <td>${di.d_grade}</td>

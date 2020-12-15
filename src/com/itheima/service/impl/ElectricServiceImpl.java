@@ -1,12 +1,9 @@
 package com.itheima.service.impl;
 
 import com.itheima.dao.ElectricDao;
-import com.itheima.dao.WaterDao;
 import com.itheima.po.Electric;
 import com.itheima.po.PageInfo;
-import com.itheima.po.Water;
 import com.itheima.service.ElectricService;
-import com.itheima.service.WaterService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;

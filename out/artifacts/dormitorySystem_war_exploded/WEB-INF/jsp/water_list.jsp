@@ -109,9 +109,9 @@
             <th>操作</th>
         </thead>
         <tbody>
-        <c:forEach items="${pi.list}" var="water">
+        <c:forEach items="${pi.list}" var="water" varStatus="index">
             <tr>
-                <td>${water.w_id}</td>
+                <td>${index.index + 1}</td>
                 <td>${water.w_money}</td>
                 <td>${water.w_dormitoryid}</td>
                 <td>${water.w_dormbuilding}</td>

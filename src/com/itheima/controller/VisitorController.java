@@ -82,6 +82,7 @@ public class VisitorController {
      */
     @RequestMapping( value = "/updateVisitor", method = RequestMethod.POST)
     public String updateVisitor( Visitor visitor) {
+        System.err.println("vissitor: " + visitor);
         int v = visitorService.updateVisitor(visitor);
         return "redirect:/findVisitor";
     }

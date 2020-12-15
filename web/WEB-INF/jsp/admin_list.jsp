@@ -66,9 +66,7 @@
     <table class="layui-table" >
         <thead>
         <tr>
-            <%--<th>--%>
-                <%--<div class="layui-unselect header layui-form-checkbox" lay-skin="primary"><i class="layui-icon">&#xe605;</i></div>--%>
-            <%--</th>--%>
+
             <th>ID</th>
             <th>用户名</th>
             <%--<th>密码</th>--%>
@@ -79,18 +77,13 @@
             <th>操作</th>
         </thead>
         <tbody>
-<c:forEach items="${ai.list}" var="ai">
+<c:forEach items="${ai.list}" var="ai" varStatus="index">
         <tr>
-            <%--<td>--%>
-                <%--<div class="layui-unselect layui-form-checkbox" lay-skin="primary" data-id='2'><i class="layui-icon">&#xe605;</i></div>--%>
-            <%--</td>--%>
-            <%--<td>${class.c_id}</td>--%>
+
             <td class="myid">${ai.a_id}</td>
             <td>${ai.a_username}</td>
-            <%--<td>${ai.a_password}</td>--%>
             <td>${ai.a_name}</td>
             <td>${ai.a_phone}</td>
-            <%--<td>${ai.a_power}</td>--%>
             <td>${ai.a_describe}</td>
             <td class="td-manage">
                 <%--href="/findAdminById?a_id=${ai.a_id}"--%>

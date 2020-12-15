@@ -18,14 +18,14 @@ public interface WaterDao {
      */
     //获取总条数
     Integer totalCount(@Param("w_dormitoryid") String w_dormitoryid,
-                              @Param("w_dormbuilding") String w_dormbuilding,
-                              @Param("w_time") String w_time);
+                       @Param("w_dormbuilding") String w_dormbuilding,
+                       @Param("w_time") String w_time);
     //获取用户列表
     List<Water> getWaterList(@Param("w_dormitoryid") String w_dormitoryid,
-                                      @Param("w_dormbuilding") String w_dormbuilding,
-                                      @Param("w_time") String w_time,
-                                      @Param("currentPage")Integer currentPage,
-                                      @Param("pageSize")Integer pageSize);
+                             @Param("w_dormbuilding") String w_dormbuilding,
+                             @Param("w_time") String w_time,
+                             @Param("currentPage") Integer currentPage,
+                             @Param("pageSize") Integer pageSize);
 
     /**
      * 删除缴费记录

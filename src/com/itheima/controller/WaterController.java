@@ -45,7 +45,7 @@ public class WaterController {
                               Integer pageSize, Model model) {
 
         PageInfo<Water> pi = waterService.findPageInfo(w_dormitoryid, w_dormbuilding, w_time,
-                pageIndex,pageSize);
+                pageIndex, pageSize);
         model.addAttribute("pi",pi);
         model.addAttribute("v_name","*****");
         return "water_list";
